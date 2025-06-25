@@ -1,10 +1,10 @@
 # Wayback Machine
 
-| In 1989, Sir Tim Berners-Lee invented the World Wide Web (see the [original proposal](https://www.w3.org/History/1989/proposal.html)). He coined the term "World Wide Web," wrote the first World Wide Web server, "httpd," and the first client program (a browser and editor), "WorldWideWeb," in October 1990.
-
-| He wrote the first version of the "HyperText Markup Language" (HTML), the document formatting language with the capability for hypertext links that became the primary publishing format for the Web. His initial specifications for URIs, HTTP, and HTML were refined and discussed in larger circles as Web technology spread.
-
-[https://www.w3.org/about/history/]
+> In 1989, Sir Tim Berners-Lee invented the World Wide Web (see the [original proposal](https://www.w3.org/History/1989/proposal.html)). He coined the term "World Wide Web," wrote the first World Wide Web server, "httpd," and the first client program (a browser and editor), "WorldWideWeb," in October 1990.
+>
+> He wrote the first version of the "HyperText Markup Language" (HTML), the document formatting language with the capability for hypertext links that became the primary publishing format for the Web. His initial specifications for URIs, HTTP, and HTML were refined and discussed in larger circles as Web technology spread.
+>
+> -- [https://www.w3.org/about/history/](History | W3C)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ![WWW components](WWW.gif)
 
-https://www.w3.org/People/Frystyk/thesis/WWW.html
+Image from [https://www.w3.org/People/Frystyk/thesis/WWW.html]
 
 - server (httpd)
 - clients 
@@ -76,13 +76,11 @@ urn:example:animal:ferret:nose
 
 # Origins of the Semantic Web
 
-| The Semantic Web is not a separate Web but an extension of the current one, in which information is given well-defined meaning, better enabling computers and people to work in cooperation.
-
-| For the semantic web to function, computers must have access to *structured collections of information* and sets of inference rules that they can use to conduct *automated reasoning*.
-
-Tim Berners-Lee et al. 2001
-
-[Scientific American: The Semantic Web](https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf)
+> The Semantic Web is not a separate Web but an extension of the current one, in which information is given well-defined meaning, better enabling computers and people to work in cooperation.
+>
+> For the semantic web to function, computers must have access to *structured collections of information* and sets of inference rules that they can use to conduct *automated reasoning*.
+>
+> -- Tim Berners-Lee et al. 2001 in [Scientific American: The Semantic Web](https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf)
 
 ---
 
@@ -155,18 +153,21 @@ Why links between data and knowledge?
 
 # What is it good for?
 
+![rendered code from previous page](html-render.png)
+
 Google's point-of-view: rich results
 
 - [Microdata](https://search.google.com/test/rich-results/result?id=aaPWxYJcGkrIa-K4j2nNIQ)
 - [JSON-LD](https://search.google.com/test/rich-results/result?id=b6AY_uRQEfEvQUP9O_0gFQ)
 
-| Google uses structured data to understand the content on the page and show that content in a richer appearance in search results, which is called a rich result.
+> Google uses structured data to understand the content on the page and show that content in a richer appearance in search results, which is called a rich result.
 
 [Structured data markup that Google Search supports](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)
 
-![event rich result](event-rich-result.png)
+<img src="event-rich-result.png" alt="event rich result" width="200"/>
+<!-- event rich result](event-rich-result.png -->
 
-Search results: article, breadcrumb, carousel, course list, dataset, discussion forum, education Q&A, event, FAQ, image metadata, job posting, local business, math solver, movie, organization, practice problem, product, profile page, Q&A, recipe, review snippet, software app, speakable, subscription and paywalled content, vacation rental, video
+*Search results:* article, breadcrumb, carousel, course list, dataset, discussion forum, education Q&A, event, FAQ, image metadata, job posting, local business, math solver, movie, organization, practice problem, product, profile page, Q&A, recipe, review snippet, software app, speakable, subscription and paywalled content, vacation rental, video
 
 ---
 
