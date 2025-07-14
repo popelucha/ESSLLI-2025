@@ -171,14 +171,6 @@ Google's point-of-view: rich results
 
 ---
 
-# Again, the Structured (and Unstructured)
-
-Structured = structured for computer use
-
-Unstructured = structured for humans, not totally chaotic
-
----
-
 # Back to the JSON-LD Example
 
 ```
@@ -209,7 +201,10 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ---
 
-# Browse on your own schema.org
+# Hands-on
+
+- Browse on your own [schema.org](https://www.schema.org)
+- Check the [JSON-LD plaground](https://json-ld.org/playground/)
 
 ---
 
