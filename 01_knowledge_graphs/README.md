@@ -8,5 +8,31 @@
 >
 > -- <cite>Arthur C. Clarke: THE FOUNTAINS OF PARADISE, 1979</cite>
 
+---
+
+## How would you solve the problem with todays' tools?
+
+- full text engine (old school)
+- modern search engine (linked to knowledge sources)
+- large language model (LLM)
+
+---
+
+- faceted search (similar to domain specific search engines)
+- multi-hop search
+
+---
 
 ## Structured and unstructured data
+
+two views on data:
+
+- structured: database view (tables, relations, ...)
+- unstructured: documents as streams of characters
+
+"Unstructured" means unstructured from computational point of view.
+Unstructured data have no predefined data model.
+
+However, unstructured data are structured from the human POV.
+
+---
