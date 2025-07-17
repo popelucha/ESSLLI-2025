@@ -1,4 +1,8 @@
-# Wayback Machine
+# Web Technologies
+
+---
+
+## Wayback Machine
 
 > In 1989, Sir Tim Berners-Lee invented the World Wide Web (see the [original proposal](https://www.w3.org/History/1989/proposal.html)). He coined the term "World Wide Web," wrote the first World Wide Web server, "httpd," and the first client program (a browser and editor), "WorldWideWeb," in October 1990.
 >
@@ -8,34 +12,32 @@
 
 ---
 
-# WWW Components
+## WWW Components
 
 ![WWW components](WWW.gif)
 
 Image from [https://www.w3.org/People/Frystyk/thesis/WWW.html]
 
-- server (httpd)
-- clients 
-- markup language
-- protocol (HTTP)
-- identifiers (URI, URL)
-- navigation (hypertext)
+* server (httpd)
+* clients 
+* markup language
+* protocol (HTTP)
+* identifiers (URI, URL)
+* navigation (hypertext)
 
 ---
 
-# Component: Identifier
+## Component: URI = Uniform Resource Identifier
 
-## URI = Uniform Resource Identifier
-
-- worldwide unique
-- uniform = with same syntax accross object types
-- resource = whatever that is worth linking
-  - article
-  - web page
-  - multimedia
-  - service
-  - abstract entities (e.g., the sum function)
-- not necessarily accessible on the Internet
+* worldwide unique
+* uniform = with same syntax accross object types
+* resource = whatever that is worth linking
+  * article
+  * web page
+  * multimedia
+  * service
+  * abstract entities (e.g., the sum function)
+* not necessarily accessible on the Internet
 
 ---
 
@@ -52,7 +54,7 @@ URI = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
 
 ---
 
-# URI Example
+## URI Example
 
 ```
 foo://example.com:8042/over/there?name=ferret#nose
@@ -64,17 +66,15 @@ scheme     authority     path        query   fragment
 urn:example:animal:ferret:nose
 ```
 
----
+### Sidenote: URI? URL? URN? IRI?
 
-# Sidenote: URI? URL? URN? IRI?
-
-- originally, URI = URL (Locator) or URN (Name)
-- nowadays, URL stands for URI
-- later, IRI = Internationalized (UTF-8 characters are allowed)
+* originally, URI = URL (Locator) or URN (Name)
+* nowadays, URL stands for URI
+* later, IRI = Internationalized (UTF-8 characters are allowed)
 
 ---
 
-# Origins of the Semantic Web
+## Origins of the Semantic Web
 
 > The Semantic Web is not a separate Web but an extension of the current one, in which information is given well-defined meaning, better enabling computers and people to work in cooperation.
 >
@@ -84,17 +84,17 @@ urn:example:animal:ferret:nose
 
 ---
 
-# Web X.0
+## Web X.0
 
-- 1.0 - links between **web pages**
-- 2.0 - links between **applications**
-- 3.0 - links between **data and knowledge**
+* 1.0 - links between **web pages** (HTML, CGI, graphics)
+* 2.0 - links between **applications** (AJAX, APIs, responsivity)
+* 3.0 - links between **pieces of knowledge** (semantic search, connectivity)
 
-Why links between data and knowledge?
+[Sharma, 2025](../references.md#Sharma2025)
 
 ---
 
-# Example: Microdata in HTML
+## Example: Microdata in HTML
 
 ```
 <div itemscope itemtype="https://schema.org/SoftwareApplication">
@@ -118,7 +118,7 @@ Why links between data and knowledge?
 
 ---
 
-# Example: JSON-LD in HTML
+## Example: JSON-LD in HTML
 
 ```
 <html>
@@ -151,7 +151,7 @@ Why links between data and knowledge?
 
 ---
 
-# What is it good for?
+## What is it Good for?
 
 ![rendered code from previous page](html-render.png)
 
@@ -171,7 +171,7 @@ Google's point-of-view: rich results
 
 ---
 
-# Back to the JSON-LD Example
+## Back to the JSON-LD Example
 
 ```
     {
@@ -195,20 +195,20 @@ Google's point-of-view: rich results
 
 ---
 
-# Are Structured Data used?
+## Are Structured Data Used?
 
 Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema_org_subsets.html)
 
 ---
 
-# Hands-on
+## Hands-on
 
 - Browse on your own [schema.org](https://www.schema.org)
 - Check the [JSON-LD plaground](https://json-ld.org/playground/)
 
 ---
 
-# The Four Rules for Linked Data
+## The Four Rules for Linked Data
 
 1. Use URIs as names for things
 1. Use HTTP URIs so that people can look up those names.
@@ -219,12 +219,12 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ---
 
-# The Five Stars of Linked Open Data
+## The Five Stars of Linked Open Data
 
-- ★	Available on the web (whatever format) but with an open licence, to be Open Data
-- ★★	Available as machine-readable structured data (e.g. excel instead of image scan of a table)
-- ★★★	as (2) plus non-proprietary format (e.g. CSV instead of excel)
-- ★★★★	All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff
-- ★★★★★	All the above, plus: Link your data to other people’s data to provide context
+* ★	Available on the web (whatever format) but with an open licence, to be Open Data
+* ★★	Available as machine-readable structured data (e.g. excel instead of image scan of a table)
+* ★★★	as (2) plus non-proprietary format (e.g. CSV instead of excel)
+* ★★★★	All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff
+* ★★★★★	All the above, plus: Link your data to other people’s data to provide context
 
 [https://www.w3.org/DesignIssues/LinkedData.html]
