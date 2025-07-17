@@ -12,9 +12,10 @@
 
 ---
 
-## How would you solve the problem...
+## How would you Solve the Problem...
 
 ... with todays' tools?
+
 * full text engine (old school)
 * modern search engine (linked to knowledge sources)
 * faceted search (similar to domain specific search engines)
@@ -23,7 +24,7 @@
 
 ---
 
-## Structured and unstructured data
+## Structured and Unstructured data
 
 two views on data:
 
@@ -90,66 +91,76 @@ What information do we put in columns?
 natural language (English): Jane Doe lives in Bochum. So does John Smith. Jane has a lot of friends, while John has only 25 of them.
 
 graph: 
+![](graph_john_jane.png)
 
 Important: 
-- Bochum == Bochum
-- 25 != 25
+
+* Bochum == Bochum
+* 25 != 25
 
 --- 
 
-### Knowledge Graph properties
+## Knowledge Graph Properties
 
 Knowledge graph (KG) is a model.
 The designer has to make design choices.
 
-- decide what is the scope of the model (e.g., domain of the Bochum community)
-  - what entities will be in the graph?
-  - what relations will be in the graph?
-- decide what entities are the same (i.e., point to the same object in reality)
+* decide what is the scope of the model (e.g., domain of the Bochum community)
+  * what entities will be in the graph?
+  * what relations will be in the graph?
+* decide what entities are the same (i.e., point to the same object in reality)
 
 ---
 
-### Graph Model and Schema = RDF
+## Graph Model and Schema = RDF
 
-- Resource description framework (RDF)
-- Resource description framework schema (RDFS)
+* Resource description framework (RDF)
+* Resource description framework schema (RDFS)
 
-- Describe how to model knowledge
-- Provides *basic concepts* (in a **vocabulary**)
-  - resource = node that can be connected to another node
-  - literal = it makes no sense to connect it to other nodes
-  - statement = a triple
+* Describe how to model knowledge
+* Provides *basic concepts* (in a **vocabulary**)
+  * **resource** = node that can be connected to another node
+  * **literal** = it makes no sense to connect it to other nodes
+  * **statement** = a triple
 
 ---
 
-### The triple
+## The Triple
 
-  - resource - predicate - resource
-  - resource - predicate - literal
+   resource - predicate - resource
 
-Resources have unique identifier.
-For human readability, they have labels.
+   resource - predicate - literal
+
+Resources have **unique identifier**.
+For **human readability**, they have labels.
 Labels can be in different languages.
-Literals can have types.
+Literals can have **data types**.
 
 ---
 
-### Example
+### Now What?
 
-
----
-
-### Now what?
-
-- structured data can be converted to natural language.
+* Structured data can be **converted to** natural language.
 
 [https://chatgpt.com/share/68793881-805c-8006-8d29-4ccbd0f3ea2f]
 
-- structured data can easily be reused in other situations.
-  - Who is in Bochum?
-  - What is the average age of people in Bochum?
-  - How many friends do people have at maximum?
-  - Is it true that older people have more friends?
+* Structured data can easily be **reused** in other situations.
+  * Who is in Bochum?
+  * What is the average age of people in Bochum?
+  * How many friends do people have at maximum?
+  * Is it true that older people have more friends?
 
-- structured data can be obtained from natural language texts using large language models
-  - Let's try and [visualize](https://www.ldf.fi/service/rdf-grapher)
+* Structured data can be obtained from natural language texts using large language models
+  * Let's try and [visualize](https://www.ldf.fi/service/rdf-grapher)
+
+---
+
+## Summary
+
+* Unstructured data mean streams of characters, but they can be
+  structured for us - humans.
+* Structured data are used to model a domain/event/part of our world.
+*  Knowledge graphs are a popular model because they are:
+  *  easily processed by algorithms
+  *  still readable for humans
+
