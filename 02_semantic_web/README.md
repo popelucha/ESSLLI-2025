@@ -223,25 +223,29 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ## The Five Stars of Linked Open Data
 
-------- -----------------------------------------
- &ast;  Available on the web (whatever format) 
-        but with an open licence, to be Open Data
+-------- ---------------------------------------------
+&ast;    Available on the web (whatever format) 
+         but with an open licence, to be Open Data
 
- ★★     Available as machine-readable structured 
-        data (e.g. excel instead of image scan 
-        of a table)
+&ast;    Available as machine-readable structured 
+&ast;    data (e.g. excel instead of image scan 
+         of a table)
 
- ★★★    As (2) plus non-proprietary format (e.g.
-        CSV instead of excel)
+&ast;    As (2) plus non-proprietary format (e.g.
+&ast;    CSV instead of excel)
+&ast;
 
- ★★★★   All the above plus, Use open standards 
-        from W3C (RDF and SPARQL) to identify 
-        things, so that people can point at your 
-        stuff
+&ast;    All the above plus, Use open standards 
+&ast;    from W3C (RDF and SPARQL) to identify 
+&ast;    things, so that people can point at your 
+&ast;    stuff
 
- ★★★★★  All the above, plus: Link your data to 
-        other people’s data to provide context
-------- -----------------------------------------
+&ast;    All the above, plus: Link your data to 
+&ast;    other people’s data to provide context
+&ast;
+&ast;
+&ast;
+-------- ---------------------------------------------
 
 
 [Berners-Lee, 2006](../references.md#TBL2006)

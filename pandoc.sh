@@ -19,4 +19,4 @@ OUTPUT=${DIR}.tex
 
 echo "Writing $INPUT to $OUTPUT"
 
-pandoc --columns 50 -f "$SOURCE_FORMAT"  -t beamer $INPUT -o $OUTPUT
+pandoc --columns 80 -f "$SOURCE_FORMAT"  -t beamer $INPUT -o $OUTPUT
