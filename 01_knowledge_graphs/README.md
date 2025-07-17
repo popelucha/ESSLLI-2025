@@ -32,6 +32,7 @@ two views on data:
 - unstructured: documents as streams of characters
 
 “Unstructured” means unstructured from computational point of view.
+
 Unstructured data have no predefined data model.
 
 However, unstructured data are structured from the human POV.
@@ -57,7 +58,7 @@ A record
 A table of records
 
 | firstName | lastName | age |
-| --------- | -------- | --- |
+|-----------|----------|----:|
 | Jane      | Doe      | 26  |
 | John      | Smith    | 25  |
 
@@ -69,13 +70,14 @@ What information do we put in columns?
 ## What makes structured data valuable?
 
 | firstName | lastName | age | city   |
-| --------- | -------- | --- | ------ |
+|-----------|----------|----:|--------|
 | Jane      | Doe      | 26  | Bochum |
 | John      | Smith    | 25  | Bochum |
 
 
 What information do we put in columns?
-* the whole column is typically of the same type (entities)
+
+* the whole column is typically of the same data type (entities)
 * the information in the column can connect the records (relations)
 
 ---
@@ -83,32 +85,36 @@ What information do we put in columns?
 ## Graphs: entities + relations (nodes + edges)
 
 | firstName | lastName | age | city   | #friends |
-| --------- | -------- | --- | ------ | -------- |
+| --------- | -------- | --: | ------ | -------: |
 | Jane      | Doe      | 26  | Bochum |      132 |
 | John      | Smith    | 25  | Bochum |       25 |
 
 
-natural language (English): Jane Doe lives in Bochum. So does John Smith. Jane has a lot of friends, while John has only 25 of them.
+*natural language (English):* Jane Doe lives in Bochum. So does John Smith. Jane has a lot of friends, while John has only 25 of them.
 
 graph: 
-![](graph_john_jane.png)
+![](graph_jane_john.png)
 
+::: notes
 Important: 
 
 * Bochum == Bochum
 * 25 != 25
+:::
 
 --- 
 
 ## Knowledge Graph Properties
 
 Knowledge graph (KG) is a model.
+
 The designer has to make design choices.
 
 * decide what is the scope of the model (e.g., domain of the Bochum community)
   * what entities will be in the graph?
   * what relations will be in the graph?
-* decide what entities are the same (i.e., point to the same object in reality)
+  * will the graph be enriched by some implicit knowledge (e.g., Jane is female, John is male)?
+* decide what entities are the same (i.e., point to the same object in the real world)
 
 ---
 
@@ -138,7 +144,7 @@ Literals can have **data types**.
 
 ---
 
-### Now What?
+## Now What?
 
 * Structured data can be **converted to** natural language.
 
@@ -155,12 +161,28 @@ Literals can have **data types**.
 
 ---
 
+## Why KGs? Aren't tables enough?
+
+* Yes, in many cases.
+* KGs can easily model complex relationships.
+  * if the entities are similar in some aspects but very different in others.
+* Tables have to be designed *a priori*, extension is difficult.
+* KGs can *reveal* existing but hidden information by connecting records (rows) in tables.
+
+---
+
+## Automatic Conversion? Yes!
+
+* Let's try OpenRefine
+
+---
+
 ## Summary
 
-* Unstructured data mean streams of characters, but they can be
+* Unstructured data mean streams of characters, but still they can be
   structured for us - humans.
 * Structured data are used to model a domain/event/part of our world.
 *  Knowledge graphs are a popular model because they are:
   *  easily processed by algorithms
   *  still readable for humans
-
+* Tables can be a source for knowledge graphs
