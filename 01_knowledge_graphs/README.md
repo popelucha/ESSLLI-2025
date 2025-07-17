@@ -39,7 +39,7 @@ However, unstructured data are structured from the human POV.
 
 ---
 
-## A closer look to structured data
+## A Closer Look to Structured Data
 
 A record
 
@@ -53,9 +53,9 @@ A record
 
 ---
 
-## A closer look to structured data
+## A Closer Look to Structured Data
 
-A table of records
+Table of records
 
 | firstName | lastName | age |
 |-----------|----------|----:|
@@ -67,7 +67,7 @@ What information do we put in columns?
 
 ---
 
-## What makes structured data valuable?
+## What Makes Structured Data Valuable?
 
 | firstName | lastName | age | city   |
 |-----------|----------|----:|--------|
@@ -82,7 +82,7 @@ What information do we put in columns?
 
 ---
 
-## Graphs: entities + relations (nodes + edges)
+## Graphs: Entities + Relations
 
 | firstName | lastName | age | city   | #friends |
 | --------- | -------- | --: | ------ | -------: |
@@ -90,9 +90,8 @@ What information do we put in columns?
 | John      | Smith    | 25  | Bochum |       25 |
 
 
-*natural language (English):* Jane Doe lives in Bochum. So does John Smith. Jane has a lot of friends, while John has only 25 of them.
+*Jane Doe lives in Bochum. So does John Smith. Jane has a lot of friends, while John has only 25 of them.*
 
-graph: 
 ![](graph_jane_john.png)
 
 ::: notes
@@ -106,9 +105,9 @@ Important:
 
 ## Knowledge Graph Properties
 
-Knowledge graph (KG) is a model.
+Knowledge graph (KG) is a **model**.
 
-The designer has to make design choices.
+The designer has to make **design choices**.
 
 * decide what is the scope of the model (e.g., domain of the Bochum community)
   * what entities will be in the graph?
@@ -147,8 +146,7 @@ Literals can have **data types**.
 ## Now What?
 
 * Structured data can be **converted to** natural language.
-
-[https://chatgpt.com/share/68793881-805c-8006-8d29-4ccbd0f3ea2f]
+  * [check what GPT generated](https://chatgpt.com/share/68793881-805c-8006-8d29-4ccbd0f3ea2f)
 
 * Structured data can easily be **reused** in other situations.
   * Who is in Bochum?
