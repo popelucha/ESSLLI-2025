@@ -188,10 +188,10 @@ Google's point-of-view: rich results
     }
 ```
 
-- [http://schema.org]
-- SoftwareApplication
-- GameApplication
-- AggregateRating
+* [http://schema.org]
+* SoftwareApplication
+* GameApplication
+* AggregateRating
 
 ---
 
@@ -203,8 +203,8 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ## Hands-on
 
-- Browse on your own [schema.org](https://www.schema.org)
-- Check the [JSON-LD plaground](https://json-ld.org/playground/)
+* Browse on your own [schema.org](https://www.schema.org)
+* Check the [JSON-LD plaground](https://json-ld.org/playground/)
 
 ---
 
@@ -215,7 +215,7 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 1. When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)
 1. Include links to other URIs. so that they can discover more things.
 
-[https://www.w3.org/DesignIssues/LinkedData.html]
+[Berners-Lee, 2006](../references.md#TBL2006)
 
 ---
 
@@ -227,4 +227,4 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 * ★★★★	All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff
 * ★★★★★	All the above, plus: Link your data to other people’s data to provide context
 
-[https://www.w3.org/DesignIssues/LinkedData.html]
+[Berners-Lee, 2006](../references.md#TBL2006)
