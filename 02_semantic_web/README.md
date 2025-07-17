@@ -41,7 +41,7 @@ Image from [https://www.w3.org/People/Frystyk/thesis/WWW.html]
 
 ---
 
-# URI Syntax
+## URI Syntax
 
 ```
 URI = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
@@ -151,9 +151,11 @@ urn:example:animal:ferret:nose
 
 ---
 
-## What is it Good for?
+## What is it good for?
 
 ![rendered code from previous page](html-render.png)
+
+---
 
 Google's point-of-view: rich results
 
@@ -188,7 +190,7 @@ Google's point-of-view: rich results
     }
 ```
 
-* [http://schema.org]
+### Where are these entities from?
 * SoftwareApplication
 * GameApplication
 * AggregateRating
@@ -221,10 +223,25 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ## The Five Stars of Linked Open Data
 
-* ★	Available on the web (whatever format) but with an open licence, to be Open Data
-* ★★	Available as machine-readable structured data (e.g. excel instead of image scan of a table)
-* ★★★	as (2) plus non-proprietary format (e.g. CSV instead of excel)
-* ★★★★	All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff
-* ★★★★★	All the above, plus: Link your data to other people’s data to provide context
+------- -----------------------------------------
+ &ast;  Available on the web (whatever format) 
+        but with an open licence, to be Open Data
+
+ ★★     Available as machine-readable structured 
+        data (e.g. excel instead of image scan 
+        of a table)
+
+ ★★★    As (2) plus non-proprietary format (e.g.
+        CSV instead of excel)
+
+ ★★★★   All the above plus, Use open standards 
+        from W3C (RDF and SPARQL) to identify 
+        things, so that people can point at your 
+        stuff
+
+ ★★★★★  All the above, plus: Link your data to 
+        other people’s data to provide context
+------- -----------------------------------------
+
 
 [Berners-Lee, 2006](../references.md#TBL2006)

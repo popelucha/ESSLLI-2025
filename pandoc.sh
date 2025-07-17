@@ -2,6 +2,7 @@
 
 SOURCE_FORMAT="markdown_strict\
 +pipe_tables\
++multiline_tables\
 +backtick_code_blocks\
 +auto_identifiers\
 +strikeout\
@@ -18,4 +19,4 @@ OUTPUT=${DIR}.tex
 
 echo "Writing $INPUT to $OUTPUT"
 
-pandoc -f "$SOURCE_FORMAT"  -t beamer $INPUT -o $OUTPUT
+pandoc --columns 50 -f "$SOURCE_FORMAT"  -t beamer $INPUT -o $OUTPUT

@@ -31,6 +31,8 @@ two views on data:
 - structured: database view (tables, relations, graphs, ...)
 - unstructured: documents as streams of characters
 
+[Klan, 2017](../references.md#Klan2017)
+
 “Unstructured” means unstructured from computational point of view.
 
 Unstructured data have no predefined data model.
