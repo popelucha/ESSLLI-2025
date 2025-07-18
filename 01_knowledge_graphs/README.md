@@ -146,6 +146,14 @@ For **human readability**, they have labels.
 Labels can be in different languages.
 Literals can have **data types**.
 
+### Example Labels
+```
+<TheMonaLisa> <rdfs:label> “The Mona Lisa”@en .
+<TheMonaLisa> <rdfs:label> “La Joconde”@fr .
+<TheMonaLisa> <rdfs:label> “Mona Lisa”@cs .
+<TheMonaLisa> <rdfs:label> “La Gioconda”@it .
+```
+
 ---
 
 ## Now What?
@@ -176,7 +184,7 @@ Literals can have **data types**.
 
 ## Automatic Conversion? Yes!
 
-* Let's try OpenRefine
+* Let's try [OpenRefine](https://openrefine.org/)
 
 ---
 

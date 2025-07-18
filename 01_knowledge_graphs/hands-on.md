@@ -9,14 +9,16 @@
 
 - free (up to some limit)
 - no account needed
-- URL
+- https://chatgpt.com/
 
 ## OpenRefine
 
 - free and open
 - supports plugins
-- URL
+- https://openrefine.org/
 
 ### Installation instructions
+
+
 
 ### Example data

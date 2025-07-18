@@ -367,4 +367,7 @@ RDF Triples can be **serialized** in several forms:
 * knowledge graphs are part of modern search engines
   * to directly answer users questions
   * machines interchange information about goods, events, and other searchable things
-
+* data producers can use high-level frameworks
+  * linked data
+  * linked open data
+  * FAIR data
