@@ -260,8 +260,8 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ## FAIR and LOD
 
-* LOD -> data interoperability
-* FAIR -> data reusability
+* LOD $\rightarrow$ data interoperability
+* FAIR $\rightarrow$ data reusability
 
 FAIR data does not have to be *open*. FAIR can use other identifiers than *URIs*.
 
@@ -305,8 +305,8 @@ about classes
 
 ### The Tendency to Re-Use
 
-* reuse subjects and objects -> increase the graph density
-* reuse predicates -> minimize the number of types of edges
+* reuse subjects and objects $\rightarrow$ increase the graph density
+* reuse predicates $\rightarrow$ minimize the number of types of edges
 
 ---
 

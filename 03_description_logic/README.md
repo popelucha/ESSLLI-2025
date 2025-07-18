@@ -53,10 +53,10 @@ We can infer new facts:
 
 <details>
 <summary>Tips</summary>
-1. What should the predicate be?
-1. What should the variables/constants be?
-1. What is the relation between conjunctions and logical operators AND, OR?
-1. What are the quantifiers in natural language?
+ What should the predicate be?<br>
+ What should the variables/constants be?<br>
+ What is the relation between conjunctions and logical operators AND, OR?<br>
+ What are the quantifiers in natural language?
 </details>
 
 ---
@@ -98,7 +98,7 @@ The “and” means that both events happened *in a sequence*.
 
 * Kamala Harris wanted to become the President of the US.
 * Donald Trump became the President of the US.
-* -> Kamala Harris wanted to become Donald Trump.
+* $\rightarrow$ Kamala Harris wanted to become Donald Trump.
 
 ### FOPL Predicates
 
