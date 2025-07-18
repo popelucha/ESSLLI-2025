@@ -10,7 +10,7 @@
 >
 <details>
 <summary>Where is the text from?</summary>
-> <.-> -- <span>Arthur C. Clarke: THE FOUNTAINS OF PARADISE, 1979</span>
+Arthur C. Clarke: THE FOUNTAINS OF PARADISE, 1979
 </details>
 ---
 
