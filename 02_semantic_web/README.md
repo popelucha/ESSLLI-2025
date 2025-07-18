@@ -223,7 +223,7 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ## The Five Stars of Linked Open Data
 
-------------------------  ---------------------------------------------
+------------------------  ----------------------------------------------------
 &ast;                     Available on the web (whatever format) 
                           but with an open licence, to be Open Data
 
@@ -241,7 +241,87 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 &ast;&ast;&ast;&ast;&ast; All the above, plus: Link your data to 
                           other people’s data to provide context
-------------------------  ---------------------------------------------
-
+------------------------  ----------------------------------------------------
 
 [Berners-Lee, 2006](../references.md#TBL2006)
+
+---
+
+# Semantic Web technologies
+
+---
+
+## The Triple
+
+```
+statement: <subject> <predicate> <object>
+```
+
+### Conditions
+
+1. everything is a resource
+1. resources have URLs
+1. the `<object>` can be a literal
+
+---
+
+## Statements
+
+about individuals
+
+```
+<TimBernersLee> <isA> <inventor>
+```
+
+about classes
+
+```
+<inventor> <isA> <human>
+```
+
+---
+
+## How about complex statements?
+
+```
+<TimBernersLee> <isA> <inventor> <ofTheWWW>
+```
+
+* create complex nodes
+  * `inventorOfTheWWW`
+* reification
+  * rotate 90 degrees `:-)`
+
+---
+
+## Complex nodes
+
+```
+<TimBernersLee> <isA> <inventorOfTheWWW>
+<inventorOfTheWWw> <isA> <inventor>
+<inventorOfTheWWw> <hasTopic> <WorldWideWeb>
+```
+
+---
+
+## Reification
+
+```
+<statement> <hasSubject> <TimBernersLee>
+<statement> <hasPredicate> <isA>
+<statement> <hasObject> <inventor>
+<statement> <hasTopic> <WorldWideWeb>
+```
+
+---
+
+## Summary
+
+* although the initial idea of the semantic web has not been realized, a lot of technologies and ideas were adopted:
+  * worldwide unique identifiers
+  * link as much as possible
+  * standardization of data
+* knowledge graphs are part of modern search engines
+  * to directly answer users questions
+  * machines interchange information about goods, events, and other searchable things
+
