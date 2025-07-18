@@ -221,7 +221,7 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ---
 
-## The Five Stars of Linked Open Data
+## The Five Stars of Linked Open Data (LOD)
 
 ------------------------  ----------------------------------------------------
 &ast;                     Available on the web (whatever format) 
@@ -244,6 +244,30 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 ------------------------  ----------------------------------------------------
 
 [Berners-Lee, 2006](../references.md#TBL2006)
+
+---
+
+## FAIR Data
+
+* **F**indable - machine-readable metadata that allow discovery
+* **A**ccessible - authentication, authorization, accessibility of the metadata
+* **I**nteroperable - shared vocabularies, shared language for knowledge representation
+* **R**eusable - richly described data, released with clear licence and clear provenance
+
+[Wikipedia](../reference.md#FAIRWikipeia)
+
+---
+
+## FAIR and LOD
+
+* LOD -> data interoperability
+* FAIR -> data reusability
+
+FAIR data does not have to be *open*. FAIR can use other identifiers than *URIs*.
+
+> Both FAIR and LOD are a high-level guide for data producers and publishers.
+>
+> [Avanco, 2021](../reference.md#Avanco2021)
 
 ---
 
@@ -279,6 +303,11 @@ about classes
 <inventor> <isA> <human>
 ```
 
+### The Tendency to Re-Use
+
+* reuse subjects and objects -> increase the graph density
+* reuse predicates -> minimize the number of types of edges
+
 ---
 
 ## How about complex statements?
@@ -294,13 +323,15 @@ about classes
 
 ---
 
-## Complex nodes
+## Complex Concepts
 
 ```
 <TimBernersLee> <isA> <inventorOfTheWWW>
 <inventorOfTheWWw> <isA> <inventor>
 <inventorOfTheWWw> <hasTopic> <WorldWideWeb>
 ```
+
+The `<inventorOfTheWWW>` is a complex concept. It's less reusable than simpler complex.
 
 ---
 
@@ -312,6 +343,18 @@ about classes
 <statement> <hasObject> <inventor>
 <statement> <hasTopic> <WorldWideWeb>
 ```
+
+---
+
+## Technical Note
+
+RDF Triples can be **serialized** in several forms:
+
+* XML (RDF/XML)
+* Turtle
+* N-Quads
+
+[Let's check on RDF Grapher](https://www.ldf.fi/service/rdf-grapher)
 
 ---
 

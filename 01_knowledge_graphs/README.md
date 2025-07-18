@@ -19,7 +19,7 @@ Arthur C. Clarke: THE FOUNTAINS OF PARADISE, 1979
 
 ... with todays' tools?
 
-* full text engine (old school)
+* fulltext engine (old school)
 * modern search engine (linked to knowledge sources)
 * faceted search (similar to domain specific search engines)
 * multi-hop search
