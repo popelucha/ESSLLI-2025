@@ -254,7 +254,7 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 * **I**nteroperable - shared vocabularies, shared language for knowledge representation
 * **R**eusable - richly described data, released with clear licence and clear provenance
 
-[Wikipedia](../reference.md#FAIRWikipeia)
+[Wikipedia](../references.md#FAIRWikipeia)
 
 ---
 
@@ -267,7 +267,7 @@ FAIR data does not have to be *open*. FAIR can use other identifiers than *URIs*
 
 > Both FAIR and LOD are a high-level guide for data producers and publishers.
 >
-> [Avanco, 2021](../reference.md#Avanco2021)
+> [Avanco, 2021](../references.md#Avanco2021)
 
 ---
 

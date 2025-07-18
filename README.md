@@ -8,10 +8,10 @@ In unstructured data, only simple querying is possible; complex queries need str
 ### Outline
 
 * [Day 1: Knowledge Graphs](01_knowledge_graphs)
-* Day 2: Semantic Web Technologies
-* Day 3: Logic and Inference
-* Day 4: Querying Knowledge Graphs
-* Day 5: Knowledge and Large Language Models
+* [Day 2: Semantic Web Technologies](02_semantic_web)
+* [Day 3: Logic and Inference](03_description_logic)
+* [Day 4: Querying Knowledge Graphs](04_data_querying)
+* [Day 5: Knowledge and Large Language Models](05_llms)
 
 ### Hands-on
 

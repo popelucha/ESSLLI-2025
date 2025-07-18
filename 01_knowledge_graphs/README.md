@@ -193,7 +193,7 @@ Literals can have **data types**.
 * Unstructured data mean streams of characters, but still they can be
   structured for us - humans.
 * Structured data are used to model a domain/event/part of our world.
-*  Knowledge graphs are a popular model because they are:
-  *  easily processed by algorithms
-  *  still readable for humans
+* Knowledge graphs are a popular model because they are:
+  * easily processed by algorithms
+  * still readable for humans
 * Tables can be a source for knowledge graphs
