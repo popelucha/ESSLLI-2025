@@ -1,8 +1,12 @@
-
+# Logic and Inference
 
 ---
 
-## First-order predicate logic (FOPL)
+# First-order predicate logic (FOPL)
+
+---
+
+## FOPL Components
 
 * constants
 * variables
