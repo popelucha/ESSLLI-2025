@@ -8,7 +8,7 @@
 >
 > He wrote the first version of the "HyperText Markup Language" (HTML), the document formatting language with the capability for hypertext links that became the primary publishing format for the Web. His initial specifications for URIs, HTTP, and HTML were refined and discussed in larger circles as Web technology spread.
 >
-> -- [https://www.w3.org/about/history/](History | W3C)
+> -- [History | W3C](https://www.w3.org/about/history/)
 
 ---
 
@@ -16,7 +16,7 @@
 
 ![WWW components](WWW.gif)
 
-Image from [https://www.w3.org/People/Frystyk/thesis/WWW.html]
+Image from [Frystyk, 1994](../references.md#Frystyk1994)
 
 * server (httpd)
 * clients 
@@ -80,7 +80,7 @@ urn:example:animal:ferret:nose
 >
 > For the semantic web to function, computers must have access to *structured collections of information* and sets of inference rules that they can use to conduct *automated reasoning*.
 >
-> -- Tim Berners-Lee et al. 2001 in [Scientific American: The Semantic Web](https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf)
+> -- [Tim Berners-Lee et al. 2001](../references.md#TBL2001)
 
 ---
 
@@ -278,7 +278,7 @@ FAIR data does not have to be *open*. FAIR can use other identifiers than *URIs*
 ## The Triple
 
 ```
-statement: <subject> <predicate> <object>
+statement: <subject> <predicate> <object> .
 ```
 
 ### Conditions
@@ -294,13 +294,13 @@ statement: <subject> <predicate> <object>
 about individuals
 
 ```
-<TimBernersLee> <isA> <inventor>
+<TimBernersLee> <isA> <inventor> .
 ```
 
 about classes
 
 ```
-<inventor> <isA> <human>
+<inventor> <isA> <human> .
 ```
 
 ### The Tendency to Re-Use
@@ -313,7 +313,7 @@ about classes
 ## How about complex statements?
 
 ```
-<TimBernersLee> <isA> <inventor> <ofTheWWW>
+<TimBernersLee> <isA> <inventor> <ofTheWWW> .
 ```
 
 * create complex nodes
@@ -326,9 +326,9 @@ about classes
 ## Complex Concepts
 
 ```
-<TimBernersLee> <isA> <inventorOfTheWWW>
-<inventorOfTheWWw> <isA> <inventor>
-<inventorOfTheWWw> <hasTopic> <WorldWideWeb>
+<TimBernersLee> <isA> <inventorOfTheWWW> .
+<inventorOfTheWWw> <isA> <inventor> .
+<inventorOfTheWWw> <hasTopic> <WorldWideWeb> .
 ```
 
 The `<inventorOfTheWWW>` is a complex concept. It's less reusable than simpler complex.
@@ -338,10 +338,10 @@ The `<inventorOfTheWWW>` is a complex concept. It's less reusable than simpler c
 ## Reification
 
 ```
-<statement> <hasSubject> <TimBernersLee>
-<statement> <hasPredicate> <isA>
-<statement> <hasObject> <inventor>
-<statement> <hasTopic> <WorldWideWeb>
+<statement> <hasSubject> <TimBernersLee> .
+<statement> <hasPredicate> <isA> .
+<statement> <hasObject> <inventor> .
+<statement> <hasTopic> <WorldWideWeb> .
 ```
 
 ---
@@ -352,6 +352,7 @@ RDF Triples can be **serialized** in several forms:
 
 * XML (RDF/XML)
 * Turtle
+* N-Triples
 * N-Quads
 
 [Let's check on RDF Grapher](https://www.ldf.fi/service/rdf-grapher)

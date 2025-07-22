@@ -7,3 +7,5 @@
 - <a name="Avanco2021"></a>Karla Avanço: FAIR Principles and Linked Open Data. The road to FAIR. 2021. [link](https://roadtofair.hypotheses.org/288)
 - <a name="WikipediaFAIR"></a>Wikipedia contributors. (2025, May 24). FAIR data. In Wikipedia, The Free Encyclopedia. Retrieved 18:44, July 18, 2025, from [https://en.wikipedia.org/w/index.php?title=FAIR_data&oldid=1291949003]
 - <a name="WikipediaDescriptionLogic"></a>Wikipedia contributors. (2025, April 2). Description logic. In Wikipedia, The Free Encyclopedia. Retrieved 20:00, July 18, 2025, [from https://en.wikipedia.org/w/index.php?title=Description_logic&oldid=1283591955]
+- <a name="Frystyk1994"></a>Henrik Frystyk: The World Wide Web. 1994. [link](https://www.w3.org/People/Frystyk/thesis/WWW.html)
+- <a name="TBL2001"></a>Tim Berners-Lee: The Semantic Web. Scientific American. May 2001. [link](https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf)
