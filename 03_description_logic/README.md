@@ -195,16 +195,16 @@ Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
 * Everything: $\top$
 * Nothing: $\bot$
 * Every class: $\bot \sqsubseteq C \sqsubseteq \top$
-* Intersection, union, negation {\sqcap \sqcup \neg }
+* Intersection, union, negation $\sqcap$, $\sqcup$, $\neg$
 * Universal and existential restriction
-* Assertion { a:C}
+* Assertion $a:C$
 
 ### Examples
 
-* T = {Man \sqsubseteq Person}
-* T = Woman ≡ Person \sqcap Female
-* T = Grandmother ≡ Mother \sqcup ∃hasChild · Parent
-* A = {Man(JOHN), loves(JOHN, MARY)}
+* T = Man $\sqsubseteq$ Person
+* T = Woman ≡ Person $\sqcap$ Female
+* T = Grandmother ≡ Mother $\sqcup$ ∃hasChild · Parent
+* A = Man(JOHN), loves(JOHN, MARY)
 
 Examples from [DLArchive](../resources.md#DLArchive)
 
@@ -216,9 +216,9 @@ Examples from [DLArchive](../resources.md#DLArchive)
 
 ## Life without Inference
 
-| All men are mortal.            | Are men mortal?    |
-| Socrates is a man.             | Is Socrates a man? |
-| -------------------------------|--------------------|
+| All men are mortal.                      | Are men mortal?               |
+| Socrates is a man.                       | Is Socrates a man?            |
+|------------------------------------------|-------------------------------|
 | \only<2>{Therefore, Socrates is mortal.} | \only<1>{Is Socrates mortal?} |
 
 ---
