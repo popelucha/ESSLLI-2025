@@ -170,7 +170,9 @@ mus = MusSyllable $\times$ mus = MusAnimal
 * If two elements have different name, they can be one thing or two different things.
 
 Mona Lisa $\rightarrow$ MonaLisa
+
 La Joconde $\rightarrow$ MonaLisa
+
 Gioconda $\rightarrow$ MonaLisa
 
 ---
@@ -190,9 +192,9 @@ Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
 
 ## DL Operators
 
-* Everything: { \top }
-* Nothing: { \bot }
-* Every class: {\bot \sqsubseteq C \sqsubseteq \top}
+* Everything: $\top$
+* Nothing: $\bot$
+* Every class: $\bot \sqsubseteq C \sqsubseteq \top$
 * Intersection, union, negation {\sqcap \sqcup \neg }
 * Universal and existential restriction
 * Assertion { a:C}
@@ -208,4 +210,15 @@ Examples from [DLArchive](../resources.md#DLArchive)
 
 ---
 
-## 
+# Inference
+
+---
+
+## Life without Inference
+
+| All men are mortal.            | Are men mortal?    |
+| Socrates is a man.             | Is Socrates a man? |
+| -------------------------------|--------------------|
+| \only<2>{Therefore, Socrates is mortal.} | \only<1>{Is Socrates mortal?} |
+
+---
