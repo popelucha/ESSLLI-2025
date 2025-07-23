@@ -110,6 +110,18 @@ PresidentOfUS - is a role (dependent on time)
 
 ---
 
+## Concepts and Labels
+
+
+> Mus syllaba est. Syllaba autem caseum non rodit; mus ergo caseum non rodit.
+> (A mouse is a syllable. But a syllable does not gnaw cheese; therefore a mouse does not gnaw cheese.)
+>
+> -- [Seneca](https://www.loebclassics.com/view/seneca_younger-epistles/1917/pb_LCL075.317.xml)
+
+
+
+---
+
 # Description Logic
 
 ---
