@@ -8,15 +8,13 @@
 
 ## FOPL Components
 
-* constants
-* variables
-* predicates
-* quantifiers
-* operators/logical connectives
-* expressions/terms
-* formulas
-  * atomic formulas
-  * constructed formulas using quantifiers and connectives
+
+| constants, variables       |
+| predicates (unary, binary) |
+| quantifiers                |
+| logical connectives        |
+| expressions                |
+| formulas                   |
 
 ---
 
@@ -118,8 +116,6 @@ PresidentOfUS - is a role (dependent on time)
 >
 > -- [Seneca](https://www.loebclassics.com/view/seneca_younger-epistles/1917/pb_LCL075.317.xml)
 
-
-
 ---
 
 # Description Logic
@@ -133,3 +129,83 @@ PresidentOfUS - is a role (dependent on time)
 * good balance between expressiveness and computational complexity
 
 [Wikipedia](../references.md#WikipediaDescriptionLogic)
+
+---
+
+## DL and FOPL components
+
+| FOPL                       | DL                   |
+|----------------------------|----------------------|
+| constants, variables       | individual           |
+| unary predicates           | concept              |
+| binary predicates          | role                 |
+| quantifiers                |                      |
+| logical connectives        |                      |
+| expressions                |                      |
+| formulas                   | $\supset$ statements |
+
+### Examples
+* Concept: Student(x)
+* Role: teaches(Teacher, Course)
+
+---
+
+## DL Restriction over FOPL
+
+* T-Box (terminological box)
+* A-Box (assertional box)
+
+![](dl_krs.png)
+
+(Image from [Description Logics and OWL in the Semantic Web](https://ai.ia.agh.edu.pl/_export/s5/hekate:dl_intro#slide13))
+
+---
+
+## Unique name assumption
+
+* If two elements have the same name, they are one thing.
+
+mus = MusSyllable $\times$ mus = MusAnimal
+
+* If two elements have different name, they can be one thing or two different things.
+
+Mona Lisa $\rightarrow$ MonaLisa
+La Joconde $\rightarrow$ MonaLisa
+Gioconda $\rightarrow$ MonaLisa
+
+---
+
+## Open World Assumption
+
+* If a fact is not known, its negation is not known as well.
+
+### Closed World Assumption Example
+
+*Train Timetable*
+
+Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
+* If no such train cannot be found in the timetable, we can answer No.
+
+---
+
+## DL Operators
+
+* Everything: { \top }
+* Nothing: { \bot }
+* Every class: {\bot \sqsubseteq C \sqsubseteq \top}
+* Intersection, union, negation {\sqcap \sqcup \neg }
+* Universal and existential restriction
+* Assertion { a:C}
+
+### Examples
+
+* T = {Man \sqsubseteq Person}
+* T = Woman ≡ Person \sqcap Female
+* T = Grandmother ≡ Mother \sqcup ∃hasChild · Parent
+* A = {Man(JOHN), loves(JOHN, MARY)}
+
+Examples from [DLArchive](../resources.md#DLArchive)
+
+---
+
+## 
