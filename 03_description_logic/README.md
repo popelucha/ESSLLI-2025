@@ -8,7 +8,7 @@
 
 ## FOPL Components
 
-
+| FOPL                       |
 |----------------------------|
 | constants, variables       |
 | predicates (unary, binary) |
@@ -16,7 +16,6 @@
 | logical connectives        |
 | expressions                |
 | formulas                   |
-|----------------------------|
 
 
 ---
@@ -219,7 +218,7 @@ Examples from [DLArchive](../resources.md#DLArchive)
 
 ## Life without Inference
 
-
+| Knowledge base                           | Possible queries              |
 |------------------------------------------|-------------------------------|
 | All men are mortal.                      | Are men mortal?               |
 | Socrates is a man.                       | Is Socrates a man?            |
