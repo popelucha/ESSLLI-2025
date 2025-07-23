@@ -8,6 +8,7 @@
 
 ## FOPL Components
 
+
 |----------------------------|
 | constants, variables       |
 | predicates (unary, binary) |
@@ -16,6 +17,7 @@
 | expressions                |
 | formulas                   |
 |----------------------------|
+
 
 ---
 
@@ -217,10 +219,12 @@ Examples from [DLArchive](../resources.md#DLArchive)
 
 ## Life without Inference
 
+
 |------------------------------------------|-------------------------------|
 | All men are mortal.                      | Are men mortal?               |
 | Socrates is a man.                       | Is Socrates a man?            |
 |------------------------------------------|-------------------------------|
 | \only<2>{Therefore, Socrates is mortal.} | \only<1>{Is Socrates mortal?} |
+
 
 ---
