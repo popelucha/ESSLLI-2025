@@ -1,45 +1,47 @@
-# Wayback Machine
+# Web Technologies
+
+---
+
+## Wayback Machine
 
 > In 1989, Sir Tim Berners-Lee invented the World Wide Web (see the [original proposal](https://www.w3.org/History/1989/proposal.html)). He coined the term "World Wide Web," wrote the first World Wide Web server, "httpd," and the first client program (a browser and editor), "WorldWideWeb," in October 1990.
 >
 > He wrote the first version of the "HyperText Markup Language" (HTML), the document formatting language with the capability for hypertext links that became the primary publishing format for the Web. His initial specifications for URIs, HTTP, and HTML were refined and discussed in larger circles as Web technology spread.
 >
-> -- [https://www.w3.org/about/history/](History | W3C)
+> -- [History | W3C](https://www.w3.org/about/history/)
 
 ---
 
-# WWW Components
+## WWW Components
 
 ![WWW components](WWW.gif)
 
-Image from [https://www.w3.org/People/Frystyk/thesis/WWW.html]
+Image from [Frystyk, 1994](../references.md#Frystyk1994)
 
-- server (httpd)
-- clients 
-- markup language
-- protocol (HTTP)
-- identifiers (URI, URL)
-- navigation (hypertext)
-
----
-
-# Component: Identifier
-
-## URI = Uniform Resource Identifier
-
-- worldwide unique
-- uniform = with same syntax accross object types
-- resource = whatever that is worth linking
-  - article
-  - web page
-  - multimedia
-  - service
-  - abstract entities (e.g., the sum function)
-- not necessarily accessible on the Internet
+* server (httpd)
+* clients 
+* markup language
+* protocol (HTTP)
+* identifiers (URI, URL)
+* navigation (hypertext)
 
 ---
 
-# URI Syntax
+## Component: URI = Uniform Resource Identifier
+
+* worldwide unique
+* uniform = with same syntax accross object types
+* resource = whatever that is worth linking
+  * article
+  * web page
+  * multimedia
+  * service
+  * abstract entities (e.g., the sum function)
+* not necessarily accessible on the Internet
+
+---
+
+## URI Syntax
 
 ```
 URI = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
@@ -52,7 +54,7 @@ URI = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
 
 ---
 
-# URI Example
+## URI Example
 
 ```
 foo://example.com:8042/over/there?name=ferret#nose
@@ -64,37 +66,35 @@ scheme     authority     path        query   fragment
 urn:example:animal:ferret:nose
 ```
 
----
+### Sidenote: URI? URL? URN? IRI?
 
-# Sidenote: URI? URL? URN? IRI?
-
-- originally, URI = URL (Locator) or URN (Name)
-- nowadays, URL stands for URI
-- later, IRI = Internationalized (UTF-8 characters are allowed)
+* originally, URI = URL (Locator) or URN (Name)
+* nowadays, URL stands for URI
+* later, IRI = Internationalized (UTF-8 characters are allowed)
 
 ---
 
-# Origins of the Semantic Web
+## Origins of the Semantic Web
 
 > The Semantic Web is not a separate Web but an extension of the current one, in which information is given well-defined meaning, better enabling computers and people to work in cooperation.
 >
 > For the semantic web to function, computers must have access to *structured collections of information* and sets of inference rules that they can use to conduct *automated reasoning*.
 >
-> -- Tim Berners-Lee et al. 2001 in [Scientific American: The Semantic Web](https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf)
+> -- [Tim Berners-Lee et al. 2001](../references.md#TBL2001)
 
 ---
 
-# Web X.0
+## Web X.0
 
-- 1.0 - links between **web pages**
-- 2.0 - links between **applications**
-- 3.0 - links between **data and knowledge**
+* 1.0 - links between **web pages** (HTML, CGI, graphics)
+* 2.0 - links between **applications** (AJAX, APIs, responsivity)
+* 3.0 - links between **pieces of knowledge** (semantic search, connectivity)
 
-Why links between data and knowledge?
+[Sharma, 2025](../references.md#Sharma2025)
 
 ---
 
-# Example: Microdata in HTML
+## Example: Microdata in HTML
 
 ```
 <div itemscope itemtype="https://schema.org/SoftwareApplication">
@@ -118,7 +118,7 @@ Why links between data and knowledge?
 
 ---
 
-# Example: JSON-LD in HTML
+## Example: JSON-LD in HTML
 
 ```
 <html>
@@ -151,9 +151,11 @@ Why links between data and knowledge?
 
 ---
 
-# What is it good for?
+## What is it good for?
 
 ![rendered code from previous page](html-render.png)
+
+---
 
 Google's point-of-view: rich results
 
@@ -171,7 +173,7 @@ Google's point-of-view: rich results
 
 ---
 
-# Back to the JSON-LD Example
+## Back to the JSON-LD Example
 
 ```
     {
@@ -188,43 +190,185 @@ Google's point-of-view: rich results
     }
 ```
 
-- [http://schema.org]
-- SoftwareApplication
-- GameApplication
-- AggregateRating
+### Where are these entities from?
+* SoftwareApplication
+* GameApplication
+* AggregateRating
 
 ---
 
-# Are Structured Data used?
+## Are Structured Data Used?
 
 Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema_org_subsets.html)
 
 ---
 
-# Hands-on
+## Hands-on
 
-- Browse on your own [schema.org](https://www.schema.org)
-- Check the [JSON-LD plaground](https://json-ld.org/playground/)
+* Browse on your own [schema.org](https://www.schema.org)
+* Check the [JSON-LD plaground](https://json-ld.org/playground/)
 
 ---
 
-# The Four Rules for Linked Data
+## The Four Rules for Linked Data
 
 1. Use URIs as names for things
 1. Use HTTP URIs so that people can look up those names.
 1. When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)
 1. Include links to other URIs. so that they can discover more things.
 
-[https://www.w3.org/DesignIssues/LinkedData.html]
+[Berners-Lee, 2006](../references.md#TBL2006)
 
 ---
 
-# The Five Stars of Linked Open Data
+## The Five Stars of Linked Open Data (LOD)
 
-- ★	Available on the web (whatever format) but with an open licence, to be Open Data
-- ★★	Available as machine-readable structured data (e.g. excel instead of image scan of a table)
-- ★★★	as (2) plus non-proprietary format (e.g. CSV instead of excel)
-- ★★★★	All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff
-- ★★★★★	All the above, plus: Link your data to other people’s data to provide context
+------------------------  ----------------------------------------------------
+&ast;                     Available on the web (whatever format) 
+                          but with an open licence, to be Open Data
 
-[https://www.w3.org/DesignIssues/LinkedData.html]
+&ast;&ast;                Available as machine-readable structured 
+                          data (e.g. excel instead of image scan 
+                          of a table)
+
+&ast;&ast;&ast;           As (2) plus non-proprietary format (e.g.
+                          CSV instead of excel)
+
+&ast;&ast;&ast;&ast;      All the above plus, Use open standards 
+                          from W3C (RDF and SPARQL) to identify 
+                          things, so that people can point at your 
+                          stuff
+
+&ast;&ast;&ast;&ast;&ast; All the above, plus: Link your data to 
+                          other people’s data to provide context
+------------------------  ----------------------------------------------------
+
+[Berners-Lee, 2006](../references.md#TBL2006)
+
+---
+
+## FAIR Data
+
+* **F**indable - machine-readable metadata that allow discovery
+* **A**ccessible - authentication, authorization, accessibility of the metadata
+* **I**nteroperable - shared vocabularies, shared language for knowledge representation
+* **R**eusable - richly described data, released with clear licence and clear provenance
+
+[Wikipedia](../references.md#FAIRWikipeia)
+
+---
+
+## FAIR and LOD
+
+* LOD $\rightarrow$ data interoperability
+* FAIR $\rightarrow$ data reusability
+
+FAIR data does not have to be *open*. FAIR can use other identifiers than *URIs*.
+
+> Both FAIR and LOD are a high-level guide for data producers and publishers.
+>
+> [Avanco, 2021](../references.md#Avanco2021)
+
+---
+
+# Semantic Web technologies
+
+---
+
+## The Triple
+
+```
+statement: <subject> <predicate> <object> .
+```
+
+### Conditions
+
+1. everything is a resource
+1. resources have URLs
+1. the `<object>` can be a literal
+
+---
+
+## Statements
+
+about individuals
+
+```
+<TimBernersLee> <isA> <inventor> .
+```
+
+about classes
+
+```
+<inventor> <isA> <human> .
+```
+
+### The Tendency to Re-Use
+
+* reuse subjects and objects $\rightarrow$ increase the graph density
+* reuse predicates $\rightarrow$ minimize the number of types of edges
+
+---
+
+## How about complex statements?
+
+```
+<TimBernersLee> <isA> <inventor> <ofTheWWW> .
+```
+
+* create complex nodes
+  * `inventorOfTheWWW`
+* reification
+  * rotate 90 degrees `:-)`
+
+---
+
+## Complex Concepts
+
+```
+<TimBernersLee> <isA> <inventorOfTheWWW> .
+<inventorOfTheWWw> <isA> <inventor> .
+<inventorOfTheWWw> <hasTopic> <WorldWideWeb> .
+```
+
+The `<inventorOfTheWWW>` is a complex concept. It's less reusable than simpler complex.
+
+---
+
+## Reification
+
+```
+<statement> <hasSubject> <TimBernersLee> .
+<statement> <hasPredicate> <isA> .
+<statement> <hasObject> <inventor> .
+<statement> <hasTopic> <WorldWideWeb> .
+```
+
+---
+
+## Technical Note
+
+RDF Triples can be **serialized** in several forms:
+
+* XML (RDF/XML)
+* Turtle
+* N-Triples
+* N-Quads
+
+[Let's check on RDF Grapher](https://www.ldf.fi/service/rdf-grapher)
+
+---
+
+## Summary
+
+* although the initial idea of the semantic web has not been realized, a lot of technologies and ideas were adopted:
+  * worldwide unique identifiers
+  * link as much as possible
+  * standardization of data
+* knowledge graphs are part of modern search engines
+  * to directly answer users questions
+  * machines interchange information about goods, events, and other searchable things
+* data producers can use high-level frameworks
+  * linked data
+  * linked open data
+  * FAIR data
