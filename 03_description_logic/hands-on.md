@@ -24,7 +24,7 @@ See the [installation guide](../install-Protege.md).
 
 ![](Protege-create2.png)
 
-6. Select a reasoner and start it.
+6. Select a reasoner (preferably ELK) and start it.
 
 ![](Protege-infer.png)
 
@@ -44,4 +44,23 @@ See the [installation guide](../install-Protege.md).
 
 12. Click on Reasoner/Synchronize reasoner.
 
-Now the ontology is inconsistent.
+Now the ontology is inconsistent. Protégé can explain why.
+
+![](Protege-contradiction3.png)
+
+**OPTIONAL**
+
+If you are familiar with Protégé, you can explore the People Ontology.
+
+1. Check the data and manual at [Michael DeBellis site](https://www.michaeldebellis.com/post/the-people_example-ontology).
+2. Download the `People_Example.owl` and open it in Protégé.
+3. Check the individuals.
+4. Start a reasoner.
+5. You can check inferred properties of individuals (with light yellow background).
+6. Click on the question mark to see why a fact was inferred.
+
+![](Protege-explanation.png)
+
+7. Experiment with the inference rules within the ontology.
+
+[The People_Example Ontology](../references.md#DeBellis2021)
