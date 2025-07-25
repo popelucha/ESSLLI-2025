@@ -240,7 +240,6 @@ Examples from [DLArchive](../resources.md#DLArchive)
 |--------------------------------|-------------------------------|
 | If I oversleep, I'll be late.  | If I oversleep, I'll be late. |
 | I wasn't late.                 | I didn't oversleep.           |
-|--------------------------------|-------------------------------|
 
 <details>
 <summary>What is inferred?</summary>
@@ -251,7 +250,6 @@ Examples from [DLArchive](../resources.md#DLArchive)
 | (NOT O OR L) AND NOT L         |(NOT O OR L) AND NOT O         |         
 | NOT O                          |(NOT O OR L)                   |
 | I didn't oversleep.            |I didn't oversleep.            |
-|--------------------------------|-------------------------------|
 
 </details>
 
