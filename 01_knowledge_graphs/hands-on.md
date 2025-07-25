@@ -31,6 +31,11 @@ Visualize the result using [RDF Grapher](https://www.ldf.fi/service/rdf-grapher)
 
 Don't forget to select the format in RDF Grapher (Select From format N-Triples).
 
+**TASK**
+
+Convert the table to natural language, either manually or by using a LLM. Next, instruct ChatGPT to create RDF triples from the text.
+
+Again, visualize the result.
 
 ## ChatGPT
 

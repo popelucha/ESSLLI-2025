@@ -164,7 +164,7 @@ Literals can have **data types**.
 
 ---
 
-## Now What?
+## Now What? Structured Data Use Cases
 
 * Structured data can be **converted to** natural language.
   * [check what GPT generated](https://chatgpt.com/share/68793881-805c-8006-8d29-4ccbd0f3ea2f)
@@ -184,7 +184,6 @@ Literals can have **data types**.
 
 * Yes, in many cases.
 * KGs can easily model complex relationships.
-  * if the entities are similar in some aspects but very different in others.
 * Tables have to be designed *a priori*, extension is difficult.
 * KGs can *reveal* existing but hidden information by connecting records (rows) in tables.
 
