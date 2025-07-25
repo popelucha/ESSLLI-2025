@@ -73,14 +73,48 @@ Download OpenRefine from [the projects' website](https://openrefine.org/download
 ```
 tar zxvf openrefine-linux-3.9.3.tar.gz
 cd openrefine-linux-3.9.3
+```
+
+
+Before running OpenRefine, we need to add the extension for work with RDF - **RDF Transform**.
+
+Download [the extension](https://github.com/AtesComp/rdf-transform/releases/download/v2.3.2/rdf-transform-2.3.2.zip) and extract its contents to the `openrefine-<version>/webapp/extensions` directory. So in our case, the `rdf-transform` directory will be added to `webapp/extensions`. 
+
+```
+cd webapp/extensions
+unzip rdf-transform-2.3.2.zip 
+```
+
+Go back to the main directory of OpenRefine and run it:
+
+```
+cd ../../
 ./refine
 ```
 
 The application will run in your browser.
 
-### Running OpenRefine
+**OPTIONAL** You can check other extensions at [The OpenRefine Extensions](https://openrefine.org/extensions) site.
+
+### Using OpenRefine
+
+Create new project. Select Browse and upload [example data](OpenRefineExample.csv).
+
+![](OpenRefine-create.png)
+
+Click on Create Project
+
+![](OpenRefine-create2.png)
+
+Create a new column that will contain the first and last name for each person. Click on Given Name, select Edit column/Join columns. Put a space as a separator. Save the joined column as a new one named Name.
+
+![](OpenRefine-join.png)
+
+![](OpenRefine-join2.png)
 
 
 
 
 ### Example data
+
+
