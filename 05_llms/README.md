@@ -7,9 +7,9 @@
 
 ## Strengths and Weaknesses
 
-LLMs are very good and language generation. $\right$ They are understandable.
+LLMs are very good and language generation. $\rightarrow$ They are understandable.
 
-Logics can check consistency and describe facts precisely. $\right$ They are correct.
+Logics can check consistency and describe facts precisely. $\rightarrow$ They are correct.
 
 Understandable and correct?
 
