@@ -112,7 +112,45 @@ Create a new column that will contain the first and last name for each person. C
 
 ![](OpenRefine-join2.png)
 
+Connect our data with external knowledge (reconcile). Click on the Organization column, and start reconciliation. Select Wikidata reconci.link.
 
+![](OpenRefine-reconcile.png)
+
+Select the organization concept (Q43229) because it seems to cover all the organizations in the data.
+
+![](OpenRefine-reconcile2.png)
+
+In case of an ambiguous result, you can check the proposed entities and select them manually. The other option is to let OpenRefine decide.
+
+![](OpenRefine-reconcile3.png)
+
+Now, let's add a new column with the country where the organization is located.
+
+Click on Reconcile/Add columns from reconciled data and select country.
+
+![](OpenRefine-addCountry.png)
+
+![](OpenRefine-addCountry2.png)
+
+Because Amazon has two countries in Wikidata, a new row was created. Let's remove it manually.
+
+Click on star in row 4. 
+
+![](OpenRefine-remove.png)
+
+A new facet will appear on the left panel. Select true to limit the data to starred rows.
+
+![](OpenRefine-remove2.png)
+
+Remove matching rows.
+
+![](OpenRefine-remove3.png)
+
+Finally, click the cross of the facet to see the whole data again.
+
+**OPTIONAL** You can play around with other Wikidata relations and add field of work, organization website, chiefperson etc.
+
+**OPTIONAL** You can use OpenRefine to fix spelling. Click on the Organization column, select Reconcile/Use values as identifiers. It will correct Amazon to Amazon, Inc. as it is the correct company name.
 
 
 ### Example data
