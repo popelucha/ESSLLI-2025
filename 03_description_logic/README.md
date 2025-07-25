@@ -144,7 +144,9 @@ PresidentOfUS - is a role (dependent on time)
 | quantifiers                |                      |
 | logical connectives        |                      |
 | expressions                |                      |
-| formulas                   | $\supset$ statements |
+| formulas                   | $\supset$ axioms     |
+
+axioms = informally called *statements*
 
 ### Examples
 * Concept: Student(x)
@@ -224,6 +226,45 @@ Examples from [DLArchive](../resources.md#DLArchive)
 | Socrates is a man.                       | Is Socrates a man?  | Yes     |
 |                                          | Is Socrates mortal? | dunno   |
 
-
 ---
 
+## Inference
+
+= new knowledge from current knowledge and axioms (statements relating roles and concepts)
+
+* implicit fact = what was added implicitly
+* inferred fact = what was deduced
+
+### Example
+| inference 1                    | inference 2                   |
+|--------------------------------|-------------------------------|
+| If I oversleep, I'll be late.  | If I oversleep, I'll be late. |
+| I wasn't late.                 | I didn't oversleep.           |
+|--------------------------------|-------------------------------|
+<details>
+<summary>What is inferred?</summary>
+| formula 1                      | formula 2                     |
+|--------------------------------|-------------------------------|
+| (O $\rightarrow$ L) AND (NOT L)|(O $\rightarrow$ L) AND (NOT O)|
+| (NOT O OR L) AND NOT L         |(NOT O OR L) AND NOT O         |         
+| NOT O                          |(NOT O OR L)                   |
+| I didn't oversleep.            |I didn't oversleep.            |
+</details>
+
+## Monotonicity in KG
+
+The number of implicit and inferred facts **cannot decrease** while the facts are *added*.
+
+![](monotonicity1.png)
+
+## Monotonicity in KG
+
+The number of implicit and inferred facts **cannot decrease** while the facts are *added*.
+
+![](monotonicity2.png)
+
+## Monotonicity in KG
+
+The number of implicit and inferred facts **cannot decrease** while the facts are *added*.
+
+![](monotonicity3.png)
