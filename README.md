@@ -13,8 +13,39 @@ In unstructured data, only simple querying is possible; complex queries need str
 * [Day 4: Querying Knowledge Graphs](04_data_querying)
 * [Day 5: Knowledge and Large Language Models](05_llms)
 
+### Prepare for the course
+
+Install Software:
+* OpenRefine
+* Protégé (or use Webprotégé)
+
+Create accounts:
+* Google Account needed to run Jupyter Notebooks
+* ChatGPT (optional, needed to store the chat history)
+* Webprotégé (if you do not install the standalone version)
+
 ### Hands-on
+
+* [Day 1](01_knowledge_graphs/hands-on.md)
+* [Day 2](02_semantic_web/hands-on.md)
+* [Day 3](03_description_logic/hands-on.md)
+* [Day 4](04_data_querying/hands-on.md)
+* [Day 5](05_llms/hands-on.md)
 
 ### Ontologist's Toolbox
 
+
+
 ### References
+
+[references](references.md)
+
+# Licence
+
+[CC BY](https://creativecommons.org/licenses/by/4.0/)
+
+This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. CC BY includes the following elements:
+
+![](https://mirrors.creativecommons.org/presskit/icons/by.xlarge.png) BY: credit must be given to the creator.
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)
