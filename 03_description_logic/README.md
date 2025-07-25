@@ -1,7 +1,5 @@
 # Logic and Inference
 
----
-
 # First-order predicate logic (FOPL)
 
 ---
@@ -97,7 +95,7 @@ The “and” means that both events happened *in a sequence*.
 ### Individual/Role Ambiguity and Inference
 
 * Kamala Harris wanted to become the President of the US.
-* Donald Trump became the President of the US.
+* Donald Trump is the President of the US.
 * $\rightarrow$ Kamala Harris wanted to become Donald Trump.
 
 ### FOPL Predicates
@@ -117,8 +115,6 @@ PresidentOfUS - is a role (dependent on time)
 > (A mouse is a syllable. But a syllable does not gnaw cheese; therefore a mouse does not gnaw cheese.)
 >
 > -- [Seneca](https://www.loebclassics.com/view/seneca_younger-epistles/1917/pb_LCL075.317.xml)
-
----
 
 # Description Logic
 
@@ -190,6 +186,7 @@ Gioconda $\rightarrow$ MonaLisa
 *Train Timetable*
 
 Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
+
 * If no such train cannot be found in the timetable, we can answer No.
 
 ---
@@ -211,8 +208,6 @@ Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
 * A = Man(JOHN), loves(JOHN, MARY)
 
 Examples from [DLArchive](../resources.md#DLArchive)
-
----
 
 # Inference
 
@@ -328,7 +323,7 @@ Statements are DL formulas. Anonymous classes can be described with complement, 
 ```
 :Person owl:equivalentClass :Human .
 :Man rdfs:subClassOf :Human .
-:Grandfather owl:intersectionOf (:Man :Parent) .
+:Father owl:intersectionOf (:Man :Parent) .
 :hasFather owl:cardinality "1" .
 ```
 
