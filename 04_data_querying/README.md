@@ -12,7 +12,7 @@
 
 ## SPARQL Select Pattern
 
-```
+```sparql
 SELECT <variables>
   WHERE {
        <subgraph>
