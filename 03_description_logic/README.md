@@ -336,6 +336,15 @@ Statements are DL formulas. Anonymous classes can be described with complement, 
 
 ---
 
+## Good Practices
+
+* describe commonly known facts (women are humans)
+* describe explicitly what is implicit (children differ from elderly)
+* use commonly agreed facts (Paris is capital of France, ~~Vaccination causes autism~~)
+* reuse what was already modeled (linked data vocabulary - LOV)
+
+---
+
 ## Summary
 
 * Knowledge graphs can be used as storage for facts (statements) - a **knowledge base**.

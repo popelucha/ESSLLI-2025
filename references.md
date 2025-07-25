@@ -17,3 +17,11 @@
 - <a name="Lindsey2025"></a>Lindsey, et al., "On the Biology of a Large Language Model", Transformer Circuits, 2025. [link](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 - <a name="RDFSemantic2004"></a>RDF Semantics. W3C Recommendation 10 February 2004. W3C. [link](https://www.w3.org/TR/rdf-mt/)
 - <a name="DeBellis2021"></a>Michael DeBellis: The People_Example Ontology. Michael DeBellis Blog. 2021. [link](https://www.michaeldebellis.com/post/the-people_example-ontology)
+- <a name="Kadavath2022"></a>Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan Perez, Nicholas Schiefer, Zac Hatfield-Dodds, Nova DasSarma, Eli Tran-Johnson, Scott Johnston,
+Sheer El-Showk, Andy Jones, Nelson Elhage, Tristan Hume, Anna Chen, Yuntao Bai,
+Sam Bowman, Stanislav Fort, Deep Ganguli, Danny Hernandez, Josh Jacobson,
+Jackson Kernion, Shauna Kravec, Liane Lovitt, Kamal Ndousse, Catherine Olsson,
+Sam Ringer, Dario Amodei, Tom Brown, Jack Clark, Nicholas Joseph,
+Ben Mann, Sam McCandlish, Chris Olah, Jared Kaplan: Language Models (Mostly) Know What They Know. 	arXiv:2207.05221. 2022. [link](https://arxiv.org/abs/2207.05221)
+- <a name="Creswell2022"></a>Antonia Creswell, Murray Shanahan, Irina Higgins: Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning. 	arXiv:2205.09712. 2022. [link](https://arxiv.org/abs/2205.09712)
+- <a name="Li2024"></a>Yanda Li, Dixuan Wang, Jiaqing Liang, Guochao Jiang, Qianyu He, Yanghua Xiao, Deqing Yang: Reason from Fallacy: Enhancing Large Language Models’ Logical Reasoning through Logical Fallacy Understanding. 	arXiv:2404.04293. 2024. [link](https://arxiv.org/abs/2404.04293v1)

@@ -19,7 +19,7 @@
 Image from [Frystyk, 1994](../references.md#Frystyk1994)
 
 * server (httpd)
-* clients 
+* clients
 * markup language
 * protocol (HTTP)
 * identifiers (URI, URL)
@@ -217,22 +217,22 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 ## The Five Stars of Linked Open Data (LOD)
 
 ------------------------  ----------------------------------------------------
-&ast;                     Available on the web (whatever format) 
+&ast;                     Available on the web (whatever format)
                           but with an open licence, to be Open Data
 
-&ast;&ast;                Available as machine-readable structured 
-                          data (e.g. excel instead of image scan 
+&ast;&ast;                Available as machine-readable structured
+                          data (e.g. excel instead of image scan
                           of a table)
 
 &ast;&ast;&ast;           As (2) plus non-proprietary format (e.g.
                           CSV instead of excel)
 
-&ast;&ast;&ast;&ast;      All the above plus, Use open standards 
-                          from W3C (RDF and SPARQL) to identify 
-                          things, so that people can point at your 
+&ast;&ast;&ast;&ast;      All the above plus, Use open standards
+                          from W3C (RDF and SPARQL) to identify
+                          things, so that people can point at your
                           stuff
 
-&ast;&ast;&ast;&ast;&ast; All the above, plus: Link your data to 
+&ast;&ast;&ast;&ast;&ast; All the above, plus: Link your data to
                           other people’s data to provide context
 ------------------------  ----------------------------------------------------
 
@@ -300,6 +300,7 @@ about classes
 
 * reuse subjects and objects $\rightarrow$ increase the graph density
 * reuse predicates $\rightarrow$ minimize the number of types of edges
+* reuse definitions $\rightarrow$ what is [LOV](https://lov.linkeddata.es/dataset/lov/)?
 
 ---
 
