@@ -97,7 +97,7 @@ What information do we put in columns?
 
 *Jane Doe lives in Bochum. So does John Smith. Jane has a lot of friends, while John has only 25 of them.*
 
-![](graph_jane_john.png){ width=70% }
+![](graph_jane_john.png){ width=70% }\
 
 ::: notes
 Important:
