@@ -145,9 +145,9 @@ KGs provide **inference** to:
 
 ## The Triple
 
-<center>   resource - predicate - resource </center>
+   resource - predicate - resource
 
-<center>   resource - predicate - literal </center>
+   resource - predicate - literal
 
 Resources have **unique identifier**.
 For **human readability**, they have labels.
