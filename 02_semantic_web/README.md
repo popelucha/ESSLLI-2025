@@ -102,7 +102,7 @@ urn:example:animal:ferret:nose
 
 ## Example: Microdata in HTML
 
-```
+```html
 <div itemscope itemtype="https://schema.org/SoftwareApplication">
   <span itemprop="name">Angry Birds</span> -
   REQUIRES <span itemprop="operatingSystem">ANDROID</span>
@@ -125,8 +125,8 @@ urn:example:animal:ferret:nose
 
 ## Example: JSON-LD
 
-```
-    {  "@context": "https://schema.org",
+```json
+    { "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Angry Birds",
       "operatingSystem": "ANDROID",
@@ -151,7 +151,7 @@ urn:example:animal:ferret:nose
 
 ---
 
-Google's point-of-view: rich results
+## Search Engine point-of-view: rich results
 
 - [Microdata](https://search.google.com/test/rich-results/result?id=aaPWxYJcGkrIa-K4j2nNIQ)
 - [JSON-LD](https://search.google.com/test/rich-results/result?id=b6AY_uRQEfEvQUP9O_0gFQ)
@@ -169,7 +169,7 @@ Google's point-of-view: rich results
 
 ## Back to the JSON-LD Example
 
-```
+```json
     { "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Angry Birds",
