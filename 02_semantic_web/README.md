@@ -8,7 +8,7 @@
 >
 > He wrote the first version of the "HyperText Markup Language" (HTML), the document formatting language with the capability for hypertext links that became the primary publishing format for the Web. His initial specifications for URIs, HTTP, and HTML were refined and discussed in larger circles as Web technology spread.
 >
-> -- [History | W3C](https://www.w3.org/about/history/)
+> -- [History | W3C](../references.md#History)
 
 ---
 
@@ -80,7 +80,7 @@ urn:example:animal:ferret:nose
 >
 > For the semantic web to function, computers must have access to *structured collections of information* and sets of inference rules that they can use to conduct *automated reasoning*.
 >
-> -- [Tim Berners-Lee et al. 2001](../references.md#TBL2001)
+> -- [Tim Berners-Lee, 2001](../references.md#TBL2001)
 
 ---
 
@@ -163,10 +163,10 @@ Google's point-of-view: rich results
 - [JSON-LD](https://search.google.com/test/rich-results/result?id=b6AY_uRQEfEvQUP9O_0gFQ)
 
 > Google uses structured data to understand the content on the page and show that content in a richer appearance in search results, which is called a rich result.
+>
+> -- [Google, 2025](../references.md#Google2025)
 
-[Structured data markup that Google Search supports](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)
-
-<img src="event-rich-result.png" alt="event rich result" width="200"/>
+<img src="event-rich-result.png" alt="event rich result" width="300"/>
 <!-- event rich result](event-rich-result.png -->
 
 *Search results:* article, breadcrumb, carousel, course list, dataset, discussion forum, education Q&A, event, FAQ, image metadata, job posting, local business, math solver, movie, organization, practice problem, product, profile page, Q&A, recipe, review snippet, software app, speakable, subscription and paywalled content, vacation rental, video
@@ -200,13 +200,6 @@ Google's point-of-view: rich results
 ## Are Structured Data Used?
 
 Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema_org_subsets.html)
-
----
-
-## Hands-on
-
-* Browse on your own [schema.org](https://www.schema.org)
-* Check the [JSON-LD plaground](https://json-ld.org/playground/)
 
 ---
 

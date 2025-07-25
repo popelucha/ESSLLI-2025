@@ -10,3 +10,8 @@
 - <a name="Frystyk1994"></a>Henrik Frystyk: The World Wide Web. 1994. [link](https://www.w3.org/People/Frystyk/thesis/WWW.html)
 - <a name="TBL2001"></a>Tim Berners-Lee: The Semantic Web. Scientific American. May 2001. [link](https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf)
 - <a name="DLArchive"></a>Petr Křemen: Description Logic Course. FEL, CVUT. [link](https://cw.fel.cvut.cz/b181/_media/courses/osw/lecture-07dlbasics-s.pdf)
+- <a name="History"></a>W3C: History. [link](https://www.w3.org/about/history/)
+- <a name="Google2025"></a>Google, Inc.: Structured data markup that Google Search supports. Search Central, Documentation. Last updated 2025-06-12. [link](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)
+- <a name="Google1998"></a>Navneet Kaushal: Google in 1998 – History of Google. PageTraffic. [link](https://www.pagetraffic.com/blog/google-in-1998/)
+- <a name="SemFacet"></a>Marcelo Arenas, Bernardo Cuenca Grau, Evgeny Kharlamov, Šarūnas Marciuška, Dmitriy Zheleznyakov, Faceted search over RDF-based knowledge graphs, Journal of Web Semantics, Volumes 37–38, 2016, Pages 55-74, ISSN 1570-8268, https://doi.org/10.1016/j.websem.2015.12.002.
+- <a name="Lindsey2025"></a>Lindsey, et al., "On the Biology of a Large Language Model", Transformer Circuits, 2025. [link](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)

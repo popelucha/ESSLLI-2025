@@ -218,11 +218,12 @@ Examples from [DLArchive](../resources.md#DLArchive)
 
 ## Life without Inference
 
-| Knowledge base                           | Possible queries              |
-|------------------------------------------|-------------------------------|
-| All men are mortal.                      | Are men mortal?               |
-| Socrates is a man.                       | Is Socrates a man?            |
-| \only<2>{Therefore, Socrates is mortal.} | \only<1>{Is Socrates mortal?} |
+| Knowledge base                           | Possible queries    | Answers |
+|------------------------------------------|---------------------|---------|
+| All men are mortal.                      | Are men mortal?     | Yes     |
+| Socrates is a man.                       | Is Socrates a man?  | Yes     |
+|                                          | Is Socrates mortal? | dunno   |
 
 
 ---
+

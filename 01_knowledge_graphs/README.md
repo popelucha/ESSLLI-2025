@@ -19,9 +19,9 @@ Arthur C. Clarke: THE FOUNTAINS OF PARADISE, 1979
 
 ... with todays' tools?
 
-* fulltext engine (old school)
+* fulltext engine (old school) [Google in 1998](https://www.pagetraffic.com/blog/wp-content/uploads/2023/08/history-of-google-1536x690.png)
 * modern search engine (linked to knowledge sources)
-* faceted search (similar to domain specific search engines)
+* faceted search, e.g. [SemFacet](https://www.cs.ox.ac.uk/isg/tools/SemFacet/search.jpg)
 * multi-hop search
 * large language model (LLM)
 
