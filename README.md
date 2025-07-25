@@ -17,7 +17,7 @@ In unstructured data, only simple querying is possible; complex queries need str
 
 Install Software:
 * [OpenRefine](install-OpenRefine.md)
-* [Protégé](install-Protege.md) (or use Webprotégé)
+* [Protégé](install-Protege.md)
 
 Create accounts:
 * Google Account needed to run Jupyter Notebooks

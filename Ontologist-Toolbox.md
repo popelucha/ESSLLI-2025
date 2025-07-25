@@ -18,7 +18,6 @@
 * best-practices: https://oops.linkeddata.es/
 
 ### Visualization
-* https://service.tib.eu/webvowl/ - dynamic (for ontologies)
 * https://issemantic.net/rdf-visualizer - dynamic (for any RDF)
 * https://www.w3.org/RDF/Validator/ - PNG
 * https://sketch.zazuko.com/  - UML like
