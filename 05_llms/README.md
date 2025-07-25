@@ -78,6 +78,7 @@ Image from [Lindsey et al., 2025](../references.md#Lindsey2025)
 The holy grail of the Natural Language Processing (NLP).
 
 Historically:
+
 * formal grammars
 * named entity recognition and linking
 * information extraction
