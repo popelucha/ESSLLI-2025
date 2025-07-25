@@ -14,27 +14,21 @@
 
 ## WWW Components
 
-```{=latex}
-\begin{minipage}{0.55\textwidth}
-```
+:::: {.columns}
+
+::: {.column width="60%"}
 ![](WWW.png)
 
 Image from [Frystyk, 1994](../references.md#Frystyk1994)
-```{=latex}
-\end{minipage}
-\begin{minipage}{0.35\textwidth}
-```
-
+:::
+::: {.column width="35%"}
 * server (httpd)
 * clients
 * markup language
 * protocol (HTTP)
 * identifiers (URI, URL)
 * navigation (hypertext)
-
-```{=latex}
-\end{minipage}
-```
+:::
 
 ---
 
