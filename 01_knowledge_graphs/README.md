@@ -100,13 +100,13 @@ What information do we put in columns?
 ![](graph_jane_john.png)
 
 ::: notes
-Important: 
+Important:
 
 * Bochum == Bochum
 * 25 != 25
 :::
 
---- 
+---
 
 ## Knowledge Graph Properties
 
@@ -119,6 +119,11 @@ The designer has to make **design choices**.
   * what relations will be in the graph?
   * will the graph be enriched by some implicit knowledge (e.g., Jane is female, John is male)?
 * decide what entities are the same (i.e., point to the same object in the real world)
+
+KGs provide **inference** to:
+
+* check logical consistency
+* infer new facts via deduction (general $\rightarrow$ specific)
 
 ---
 

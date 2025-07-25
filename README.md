@@ -32,13 +32,10 @@ Create accounts:
 * [Day 4](04_data_querying/hands-on.md)
 * [Day 5](05_llms/hands-on.md)
 
-### Ontologist's Toolbox
+### Useful links
 
-
-
-### References
-
-[references](references.md)
+* [Ontologists' Toolbox](Ontologists-Toolbox.md)
+* [References](references.md)
 
 # Licence
 
