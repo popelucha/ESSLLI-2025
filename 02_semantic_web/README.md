@@ -14,7 +14,7 @@
 
 ## WWW Components
 
-![WWW components](WWW.gif)
+![WWW components](WWW.png)
 
 Image from [Frystyk, 1994](../references.md#Frystyk1994)
 
