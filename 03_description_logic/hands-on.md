@@ -16,15 +16,14 @@ See the [installation guide](../install-Protege.md).
 
 1. Open Protégé.
 2. Select Entities, click on `owl:Thing`.
-3. Add subclass Mortal. Add its subclass Human. - The ontology models the fact that *All humans are mortal.*
-
 ![](Protege-create.png)
 
+3. Add subclass Mortal. Add its subclass Human. - The ontology models the fact that *All humans are mortal.*
 4. Select Individuals by Class.
+5. Create instance Socrates.
 
 ![](Protege-create2.png)
 
-5. Create instance Socrates.
 6. Select a reasoner and start it.
 
 ![](Protege-infer.png)
