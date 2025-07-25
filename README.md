@@ -33,7 +33,7 @@ Create accounts:
 
 ### Useful links
 
-* [Ontologists' Toolbox](Ontologists-Toolbox.md)
+* [Ontologists' Toolbox](Ontologist-Toolbox.md)
 * [References](references.md)
 
 # Licence
