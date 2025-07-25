@@ -15,8 +15,8 @@
 ## WWW Components
 
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| ![](WWW.png)                                             | * server (httpd)                                                          |
-| Image from [Frystyk, 1994](../references.md#Frystyk1994) | clients <br/> markup language <br/> protocol (HTTP) <br/> identifiers (URI, URL) <br/> navigation (hypertext) |
+| ![](WWW.png)                                             | server (httpd) <br/> clients <br/> markup language <br/> protocol (HTTP) <br/> identifiers (URI, URL) <br/> navigation (hypertext) |
+| Image from [Frystyk, 1994](../references.md#Frystyk1994) |                                                                                        |
 
 ---
 
