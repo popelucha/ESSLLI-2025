@@ -3,8 +3,8 @@
 ## Protégé
 
 - free and open
-- web verison: https://webprotege.stanford.edu/ - does not provide reasoning (inference)
-- standalone version: https://protege.stanford.edu/
+- web version: https://webprotege.stanford.edu/ - does not provide reasoning (inference)
+- standalone version: https://protege.stanford.edu/ - **use this one**
 
 **TASK**: Get familiar with Protégé.
 
@@ -45,4 +45,4 @@ See the [installation guide](../install-Protege.md).
 
 12. Click on Reasoner/Synchronize reasoner.
 
-Now the ontology is inconsistent. 
+Now the ontology is inconsistent.
