@@ -170,8 +170,7 @@ Google's point-of-view: rich results
 ## Back to the JSON-LD Example
 
 ```
-    {
-      "@context": "https://schema.org",
+    { "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Angry Birds",
       "operatingSystem": "ANDROID",
@@ -180,8 +179,7 @@ Google's point-of-view: rich results
         "@type": "AggregateRating",
         "ratingValue": 4.6,
         "ratingCount": 8864
-      }
-    }
+      }}
 ```
 
 ### Where are these entities from?
@@ -210,7 +208,7 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 ## The Five Stars of Linked Open Data (LOD)
 
-------------------------  ----------------------------------------------------
+------------------------  -----------------------------------------------------------
 &ast;                     Available on the web (whatever format)
                           but with an open licence, to be Open Data
 
@@ -228,7 +226,7 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 &ast;&ast;&ast;&ast;&ast; All the above, plus: Link your data to
                           other people’s data to provide context
-------------------------  ----------------------------------------------------
+------------------------  -----------------------------------------------------------
 
 [Berners-Lee, 2006](../references.md#TBL2006)
 
@@ -252,11 +250,11 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 FAIR data does not have to be *open*. FAIR can use other identifiers than *URIs*.
 
+
+
 > Both FAIR and LOD are a high-level guide for data producers and publishers.
 >
 > [Avanco, 2021](../references.md#Avanco2021)
-
----
 
 # Semantic Web technologies
 
