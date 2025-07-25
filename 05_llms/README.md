@@ -1,7 +1,5 @@
-# Connecting the two worlds
 
-- logic
-- language (LLMs)
+# Connecting the two worlds
 
 ---
 
@@ -65,7 +63,7 @@ Image from [Lindsey et al., 2025](../references.md#Lindsey2025)
 
 ---
 
-# From Natural Language to Description Logic
+## From Natural Language to Description Logic
 
 * create/update the knowledge base
   * does the representation reflect common understanding?
@@ -111,9 +109,12 @@ Even with the LLMs, it's not easy.
   * at query time, RAG compares the question embedding vector with the database and answers with the most similar chunk
 
 The difficult part(s):
+
 * how to make the chunks
 * is the encoding part correct?
 * is the vector comparison the best way?
+
+* Generation = the easier part for LLMs
 
 ---
 
@@ -151,6 +152,7 @@ Sometimes, this is called Graph RAG.
 ## Data Querying with LLMs
 
 LLMs can produce SPARQL queries:
+
 * no need of SPARQL
 * different wordings for the same question
 * let's try this in the hands-on session
@@ -168,9 +170,9 @@ LLMs can produce SPARQL queries:
 * KG can support the retrieval in RAG.
 * Logic inside KG can check consistence and correctness of the answers.
 
----
-
 # Conclusion
+
+---
 
 Back to the initial question (from the *Fountains of paradise*):
 
@@ -183,13 +185,14 @@ However,
 * there are ways how to formalize knowledge about rainfall, geography, and sports
 * there are standards how to link such knowledge
 * there are ways how to query a knowledge base
-* even with the natural language
+* ... even with the natural language
 
 ---
 
 ## During the Course
 
 Let's check whether you:
+
 * learned what knowledge graphs are
 * realize what is the difference between tabular and graph data and how the latter can be obtained from the former
 * recognize some parts of the large idea of the Semantic Web during your web searches

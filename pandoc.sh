@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/bash
 
 SOURCE_FORMAT="markdown_strict\
 +pipe_tables\
@@ -11,6 +11,7 @@ SOURCE_FORMAT="markdown_strict\
 +all_symbols_escapable\
 +link_attributes\
 +smart\
++tex_math_dollars\
 +fenced_divs"
 
 INPUT=$1
@@ -19,4 +20,4 @@ OUTPUT=${DIR}.tex
 
 echo "Writing $INPUT to $OUTPUT"
 
-pandoc --columns 70 -f "$SOURCE_FORMAT"  -t beamer $INPUT -o $OUTPUT
+pandoc --columns 70 -f "$SOURCE_FORMAT"  -t beamer -V slide-level=3  $INPUT -o $OUTPUT

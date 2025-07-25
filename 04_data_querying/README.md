@@ -63,7 +63,8 @@ SELECT ?person
         }
 ```
 
-Two triples:
+### Two triples
+
 * unknown (resource) -- `:hasFirstName` -- unknown (resource)
 * unknown (resource) -- `rdfs:label` -- "Peter" (literal)
 
@@ -79,7 +80,8 @@ SELECT <variables>
   <other>
 ```
 
-Other commands are:
+### Other commands are
+
 * `LIMIT`
 * `ORDER BY`
 * ...
@@ -98,7 +100,8 @@ SELECT <variables>
   }
 ```
 
-Prefix are shorthands:
+### Prefix are shorthands
+
 * `dbo:Book` = `http://dbpedia.org/ontology/Book`
 
 ---
@@ -155,9 +158,9 @@ WHERE {
 
 | ?book                                      | ?author         | ?date        |
 |--------------------------------------------|-----------------|--------------|
-|Beijinger_in_New_York                       | Glen_Cao        | "1994"       |
-|Bridget_Jones's_Diary                       | Richard_Curtis  | "2001-10-29" |
-|Planetarian:_The_Reverie_of_a_Little_Planet | Yūichi_Suzumoto | "2021-08-25" |
+|Beijinger in New York                       | Glen Cao        | "1994"       |
+|Bridget Jones's Diary                       | Richard Curtis  | "2001-10-29" |
+|Planetarian: The Reverie of a Little Planet | Yūichi Suzumoto | "2021-08-25" |
 
 ---
 
@@ -193,8 +196,7 @@ WHERE {
 ## SPARQL Examples: Optional
 
 ```
-SELECT ?first ?last ?nickname
-   WHERE
+SELECT ?first ?last ?nickname WHERE
    {
        ?s :lastName ?last .
        ?s :firstName ?first .
@@ -211,9 +213,7 @@ SELECT ?first ?last ?nickname
 ```
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dbr: <http://dbpedia.org/resource/>
-
-SELECT *
-WHERE {
+SELECT * WHERE {
 	{ ?place dct:subject dbc:Ruhr }
 	UNION
 	{ ?place dct:subject dbc:Populated_places_on_the_Rhine }
