@@ -155,4 +155,4 @@ Finally, click the cross of the facet to see the whole data again.
 
 ### Example data
 
-
+[example data](OpenRefineExample.csv)
