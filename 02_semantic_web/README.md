@@ -29,6 +29,7 @@ Image from [Frystyk, 1994](../references.md#Frystyk1994)
 * identifiers (URI, URL)
 * navigation (hypertext)
 :::
+::::
 
 ---
 
