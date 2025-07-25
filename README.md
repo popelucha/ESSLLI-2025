@@ -16,7 +16,7 @@ In unstructured data, only simple querying is possible; complex queries need str
 ### Prepare for the course
 
 Install Software:
-* OpenRefine
+* [OpenRefine](install-OpenRefine.md)
 * Protégé (or use Webprotégé)
 
 Create accounts:
