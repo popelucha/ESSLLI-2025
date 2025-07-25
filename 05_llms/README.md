@@ -24,6 +24,8 @@ Understandable and correct?
 * sometimes, models are able to express [their uncertainty](../references.md#Kadavath2022)
 * specifically fine-tuned LLMs for logical reasoning exist (e.g., DeepMind [Selection Inference](../references.md#Creswell2022))
 
+[Awesome LLM Reasoning Collection](../references.md#Awesome)
+
 ---
 
 ## Example of LLM reasoning
@@ -152,6 +154,19 @@ LLMs can produce SPARQL queries:
 * no need of SPARQL
 * different wordings for the same question
 * let's try this in the hands-on session
+
+---
+
+## Summary
+
+* LLMs have reasoning capabilities.
+* Knowledge graphs have advanced reasoning, but they are difficult to build and maintain.
+* Hybrid approaches can benefit from LLMs' good ability to generate:
+  * LLMs can convert text to triples (to some extent)
+  * LLMs can query KGs (generate the SPARQL queries)
+  * LLMs can express the facts in the KG in natural language
+* KG can support the retrieval in RAG.
+* Logic inside KG can check consistence and correctness of the answers.
 
 ---
 
