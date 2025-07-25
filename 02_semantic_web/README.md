@@ -14,24 +14,21 @@
 
 ## WWW Components
 
-![WWW components](WWW.png)
-
-Image from [Frystyk, 1994](../references.md#Frystyk1994)
-
-* server (httpd)
-* clients
+|--------------|------------------|
+| ![](WWW.png) | * server (httpd) |
+| Image from [Frystyk, 1994](../references.md#Frystyk1994) | * clients
 * markup language
 * protocol (HTTP)
 * identifiers (URI, URL)
-* navigation (hypertext)
+* navigation (hypertext) |
 
 ---
 
 ## Component: URI = Uniform Resource Identifier
 
 * worldwide unique
-* uniform = with same syntax accross object types
-* resource = whatever that is worth linking
+* uniform = with the same syntax across object types
+* resource = whatever is worth linking
   * article
   * web page
   * multimedia
@@ -99,16 +96,15 @@ urn:example:animal:ferret:nose
 ```
 <div itemscope itemtype="https://schema.org/SoftwareApplication">
   <span itemprop="name">Angry Birds</span> -
-
   REQUIRES <span itemprop="operatingSystem">ANDROID</span>
-  TYPE: <span itemprop="applicationCategory" content="GameApplication">Game</span>
-
+  TYPE: <span itemprop="applicationCategory" content="GameApplication">
+        Game</span>
   RATING:
-  <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+  <div itemprop="aggregateRating" itemscope
+        itemtype="https://schema.org/AggregateRating">
     <span itemprop="ratingValue">4.6</span> (
     <span itemprop="ratingCount">8864</span> ratings )
   </div>
-
   <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
     Price: $<span itemprop="price">1.00</span>
     <meta itemprop="priceCurrency" content="USD" />
@@ -118,15 +114,10 @@ urn:example:animal:ferret:nose
 
 ---
 
-## Example: JSON-LD in HTML
+## Example: JSON-LD
 
 ```
-<html>
-  <head>
-    <title>Angry Birds</title>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
+    {  "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Angry Birds",
       "operatingSystem": "ANDROID",
@@ -140,20 +131,14 @@ urn:example:animal:ferret:nose
         "@type": "Offer",
         "price": 1.00,
         "priceCurrency": "USD"
-      }
-    }
-    </script>
-  </head>
-  <body>
-  </body>
-</html>
+      }}
 ```
 
 ---
 
 ## What is it good for?
 
-![rendered code from previous page](html-render.png)
+![Rendered code from previous page](html-render.png)
 
 ---
 
