@@ -255,11 +255,15 @@ Examples from [DLArchive](../resources.md#DLArchive)
 
 </details>
 
+---
+
 ## Monotonicity in KG
 
 The number of implicit and inferred facts **cannot decrease** while the facts are *added*.
 
 ![](monotonicity1.png)
+
+---
 
 ## Monotonicity in KG
 
@@ -267,11 +271,15 @@ The number of implicit and inferred facts **cannot decrease** while the facts ar
 
 ![](monotonicity2.png)
 
+---
+
 ## Monotonicity in KG
 
 The number of implicit and inferred facts **cannot decrease** while the facts are *added*.
 
 ![](monotonicity3.png)
+
+---
 
 ## RDF Inference
 
@@ -287,6 +295,8 @@ vvv rdf:type uuu .
 vvv rdf:type xxx .
 ```
 
+---
+
 ## OWL components
 
 | FOPL                       | DL                   | OWL        |
@@ -298,6 +308,8 @@ vvv rdf:type xxx .
 | logical connectives        |                      |            |
 | expressions                |                      |            |
 | formulas                   | $\supset$ statements |            |
+
+---
 
 ##  OWL - Description Logic extension to RDF
 
@@ -311,6 +323,8 @@ vvv rdf:type xxx .
 
 Statements are DL formulas. Anonymous classes can be described with complement, intersection, or union.
 
+---
+
 ### Example
 
 ```
@@ -319,6 +333,8 @@ Statements are DL formulas. Anonymous classes can be described with complement, 
 :Grandfather owl:intersectionOf (:Man :Parent) .
 :hasFather owl:cardinality "1" .
 ```
+
+---
 
 ## Summary
 
