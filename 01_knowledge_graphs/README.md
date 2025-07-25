@@ -19,6 +19,8 @@ Arthur C. Clarke: THE FOUNTAINS OF PARADISE, 1979
 
 ... with todays' tools?
 
+**"What was the rainfall in the capital of the world's smallest national state on the day when the second largest number of home runs was scored in college baseball?"**
+
 * fulltext engine (old school) [Google in 1998](https://www.pagetraffic.com/blog/wp-content/uploads/2023/08/history-of-google-1536x690.png)
 * modern search engine (linked to knowledge sources)
 * faceted search, e.g. [SemFacet](https://www.cs.ox.ac.uk/isg/tools/SemFacet/search.jpg)
@@ -120,10 +122,18 @@ KGs provide **inference** to:
 
 ---
 
-## Graph Model and Schema = RDF
+## Software Standards to Model Knowledge Graphs
+
+* there are several but let's stick to what is called **semantic web technologies**
+
+---
+
+##  Model and Schema for Graphs = RDF(S)
 
 * Resource description framework (RDF)
 * Resource description framework schema (RDFS)
+
+![](graph_jane_john.png)
 
 * Describe how to model knowledge
 * Provides *basic concepts* (in a **vocabulary**)
@@ -135,9 +145,9 @@ KGs provide **inference** to:
 
 ## The Triple
 
-   resource - predicate - resource
+<center>   resource - predicate - resource </center>
 
-   resource - predicate - literal
+<center>   resource - predicate - literal </center>
 
 Resources have **unique identifier**.
 For **human readability**, they have labels.
