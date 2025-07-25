@@ -30,7 +30,7 @@ Answer:
 
 ## SPARQL SELECT Variables
 
-```
+```sparql
 SELECT <variables>
   WHERE {
        <subgraph>
@@ -47,7 +47,7 @@ If the table should contain all variables, you can use `SELECT *`.
 
 ## SPARQL WHERE Clause
 
-```
+```sparql
 SELECT <variables>
   WHERE {
        <subgraph>
@@ -56,7 +56,7 @@ SELECT <variables>
 
 The `subgraph` is a **conjunction** of triples.
 
-```
+```sparql
 SELECT ?person
   WHERE {?person :hasFirstName ?firstName .
          ?firstName rdfs:label "Peter" .
@@ -72,7 +72,7 @@ SELECT ?person
 
 ## SPARQL Other Commands
 
-```
+```sparql
 SELECT <variables>
   WHERE {
        <subgraph>
@@ -90,7 +90,7 @@ SELECT <variables>
 
 ## SPARQL Prefixes
 
-```
+```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
@@ -147,7 +147,7 @@ variable binding: variables are replaced by what is in the graph
 
 ## SPARQL Examples
 
-```
+```sparql
 SELECT ?book ?author ?date
 WHERE {
       ?book a dbo:Book .
@@ -166,7 +166,7 @@ WHERE {
 
 ## SPARQL Examples: Filtering
 
-```
+```sparql
 SELECT ?title ?author_name ?date
 WHERE {
        ?book a dbo:Book .
@@ -183,7 +183,7 @@ LIMIT 100
 
 ## SPARQL Examples: Aggregation
 
-```
+```sparql
 SELECT (sum(?pages) as ?total_number_of_pages)
 WHERE {
        ?book a dbo:Book .
@@ -195,7 +195,7 @@ WHERE {
 
 ## SPARQL Examples: Optional
 
-```
+```sparql
 SELECT ?first ?last ?nickname WHERE
    {
        ?s :lastName ?last .
@@ -210,7 +210,7 @@ SELECT ?first ?last ?nickname WHERE
 
 ## SPARQL Examples: Union
 
-```
+```sparql
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dbr: <http://dbpedia.org/resource/>
 SELECT * WHERE {
