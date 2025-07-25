@@ -16,11 +16,7 @@
 
 |--------------|------------------|
 | ![](WWW.png) | * server (httpd) |
-| Image from [Frystyk, 1994](../references.md#Frystyk1994) | * clients
-* markup language
-* protocol (HTTP)
-* identifiers (URI, URL)
-* navigation (hypertext) |
+| Image from [Frystyk, 1994](../references.md#Frystyk1994) | clients <br/> markup language <br/> protocol (HTTP) <br/> identifiers (URI, URL) <br/> navigation (hypertext) |
 
 ---
 
