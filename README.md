@@ -17,7 +17,7 @@ In unstructured data, only simple querying is possible; complex queries need str
 
 Install Software:
 * [OpenRefine](install-OpenRefine.md)
-* Protégé (or use Webprotégé)
+* [Protégé](install-Protege.md) (or use Webprotégé)
 
 Create accounts:
 * Google Account needed to run Jupyter Notebooks
@@ -48,4 +48,4 @@ This license enables reusers to distribute, remix, adapt, and build upon the mat
 
 <img src="https://mirrors.creativecommons.org/presskit/icons/by.xlarge.png" alt="BY" width="30"/>  BY: credit must be given to the creator.
 
-<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" alt="CC BY" width="80"/>
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" alt="CC BY" width="120"/>
