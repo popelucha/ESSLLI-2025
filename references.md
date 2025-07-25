@@ -15,3 +15,4 @@
 - <a name="Google1998"></a>Navneet Kaushal: Google in 1998 – History of Google. PageTraffic. [link](https://www.pagetraffic.com/blog/google-in-1998/)
 - <a name="SemFacet"></a>Marcelo Arenas, Bernardo Cuenca Grau, Evgeny Kharlamov, Šarūnas Marciuška, Dmitriy Zheleznyakov, Faceted search over RDF-based knowledge graphs, Journal of Web Semantics, Volumes 37–38, 2016, Pages 55-74, ISSN 1570-8268, https://doi.org/10.1016/j.websem.2015.12.002.
 - <a name="Lindsey2025"></a>Lindsey, et al., "On the Biology of a Large Language Model", Transformer Circuits, 2025. [link](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
+- <a name="RDFSemantic2004"></a>RDF Semantics. W3C Recommendation 10 February 2004. W3C. [link](https://www.w3.org/TR/rdf-mt/)

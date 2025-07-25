@@ -144,9 +144,9 @@ PresidentOfUS - is a role (dependent on time)
 | quantifiers                |                      |
 | logical connectives        |                      |
 | expressions                |                      |
-| formulas                   | $\supset$ axioms     |
+| formulas                   | $\supset$ statements |
 
-axioms = informally called *statements*
+axioms = statements present in a knowledge base
 
 ### Examples
 * Concept: Student(x)
@@ -199,7 +199,7 @@ Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
 * Everything: $\top$
 * Nothing: $\bot$
 * Every class: $\bot \sqsubseteq C \sqsubseteq \top$
-* Intersection, union, negation $\sqcap$, $\sqcup$, $\neg$
+* Intersection/conjunction, union/disjunction, complement/negation $\sqcap$, $\sqcup$, $\neg$
 * Universal and existential restriction
 * Assertion $a:C$
 
@@ -241,14 +241,18 @@ Examples from [DLArchive](../resources.md#DLArchive)
 | If I oversleep, I'll be late.  | If I oversleep, I'll be late. |
 | I wasn't late.                 | I didn't oversleep.           |
 |--------------------------------|-------------------------------|
+
 <details>
 <summary>What is inferred?</summary>
+
 | formula 1                      | formula 2                     |
 |--------------------------------|-------------------------------|
 | (O $\rightarrow$ L) AND (NOT L)|(O $\rightarrow$ L) AND (NOT O)|
 | (NOT O OR L) AND NOT L         |(NOT O OR L) AND NOT O         |         
 | NOT O                          |(NOT O OR L)                   |
 | I didn't oversleep.            |I didn't oversleep.            |
+|--------------------------------|-------------------------------|
+
 </details>
 
 ## Monotonicity in KG
@@ -268,3 +272,59 @@ The number of implicit and inferred facts **cannot decrease** while the facts ar
 The number of implicit and inferred facts **cannot decrease** while the facts are *added*.
 
 ![](monotonicity3.png)
+
+## RDF Inference
+
+RDF Entailment Rules [RDFSemantic, 2004](../references.md#RDFSemantic2004)
+
+Example:
+
+```
+rdfs9: 	
+uuu rdfs:subClassOf xxx .
+vvv rdf:type uuu .
+-->
+vvv rdf:type xxx .
+```
+
+## OWL components
+
+| FOPL                       | DL                   | OWL        |
+|----------------------------|----------------------|------------|
+| constants, variables       | individual           | individual |
+| unary predicates           | concept              | class      |
+| binary predicates          | role                 | property   |
+| quantifiers                |                      |            |
+| logical connectives        |                      |            |
+| expressions                |                      |            |
+| formulas                   | $\supset$ statements |            |
+
+##  OWL - Description Logic extension to RDF
+
+* negation
+* constraints on properties
+* properties can be described as:
+  * symmetric property
+  * inverse property
+  * transitive property
+* anonymous classes
+
+Statements are DL formulas. Anonymous classes can be described with complement, intersection, or union.
+
+### Example
+
+```
+:Person owl:equivalentClass :Human .
+:Man rdfs:subClassOf :Human .
+:Grandfather owl:intersectionOf (:Man :Parent) .
+:hasFather owl:cardinality "1" .
+```
+
+## Summary
+
+* Knowledge graphs can be used as storage for facts (statements) - a **knowledge base**.
+* Inference methods help to keep the knowledge base **logically consistent**.
+* Inference also helps to deduce new facts apart from the implicit facts.
+* OWL - a powerful subset of FOPL is:
+  * decidable (inference can be reached)
+  * safe (it prevents T-Box and A-Box mismatch)

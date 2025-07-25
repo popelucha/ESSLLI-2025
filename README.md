@@ -22,7 +22,6 @@ Install Software:
 Create accounts:
 * Google Account needed to run Jupyter Notebooks
 * ChatGPT (optional, needed to store the chat history)
-* Webprotégé (if you do not install the standalone version)
 
 ### Hands-on
 

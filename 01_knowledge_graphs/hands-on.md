@@ -5,7 +5,7 @@
 - free
 - https://www.ldf.fi/service/rdf-grapher
 
-**TASK**: 
+**TASK**:
 
 Let's have a database table:
 
@@ -32,7 +32,7 @@ Visualize the result using [RDF Grapher](https://www.ldf.fi/service/rdf-grapher)
 Don't forget to select the format in RDF Grapher (Select From format N-Triples).
 
 
-## chatGPT
+## ChatGPT
 
 - free (up to some limit)
 - no account needed
@@ -45,6 +45,8 @@ Feel free to instruct ChatGPT to do the tasks for you.
 - free and open
 - supports plugins
 - https://openrefine.org/
+
+**TASK**: Get familiar with OpenRefine.
 
 ### Installation instructions
 
@@ -98,7 +100,7 @@ Click on Reconcile/Add columns from reconciled data and select country.
 
 Because Amazon has two countries in Wikidata, a new row was created. Let's remove it manually.
 
-Click on star in row 4. 
+Click on star in row 4.
 
 ![](OpenRefine-remove.png)
 
