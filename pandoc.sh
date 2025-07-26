@@ -20,4 +20,4 @@ OUTPUT=${DIR}.tex
 
 echo "Writing $INPUT to $OUTPUT"
 
-pandoc --columns 70 -f "$SOURCE_FORMAT"  -t beamer -V slide-level=3  $INPUT -o $OUTPUT
+pandoc --columns 70 -f "$SOURCE_FORMAT"  -t beamer --filter ./pandoc_minted.py  $INPUT -o $OUTPUT

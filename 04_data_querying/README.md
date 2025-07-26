@@ -4,8 +4,8 @@
 
 ## Knowledge Graphs full of RDF/OWL Triples
 
-* The **triple** as a basic statement
 * Standards and good practices for data creation, description, and curation: **linked data** and **FAIR data**
+* The **triple** as a basic statement
 * Basic **inference with RDF**
 * Advanced **inference with OWL**
 * Standards for inference: **description logics**
