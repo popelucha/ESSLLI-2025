@@ -9,3 +9,7 @@ Find a short factual text (about three paragraphs). Ask [ChatGPT](https://chatgp
 Hint: ChatGPT is better at producing the Turtle format than other formats.
 
 **TASK**
+
+Open the following [Python Notebook in Google Colab](https://colab.research.google.com/drive/1jwOqgj0pq2FDv-AP6SDGk8CRvX3l1MIL?usp=sharing), make sure that you use Google T4 GPUs (if you have a free Google account, you'll have access to them up to a quota).
+
+Go through the notebook and all its tasks. Feel free to reuse the code for your own experiments.
