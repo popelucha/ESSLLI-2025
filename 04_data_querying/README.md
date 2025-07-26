@@ -2,10 +2,44 @@
 
 ---
 
+## Knowledge Graphs full of RDF/OWL Triples
+
+* The **triple** as a basic statement
+* Standards and good practices for data creation, description, and curation: **linked data** and **FAIR data**
+* Basic **inference with RDF**
+* Advanced **inference with OWL**
+* Standards for inference: **description logics**
+* The implicit and inferred knowledge is stored in **knowledge graphs**
+* The infrastructure for storing KGs is called a **triplestore**
+
+... the last missing thing?
+
+---
+
+## The Sparkling SPARQL
+
+> SPARQL, pronounced ‘sparkle’, is the standard query language and protocol for **Linked Open Data** on the web or for **RDF triplestores**.
+>
+>SPARQL, short for “SPARQL Protocol and RDF Query Language”, enables users to query information from databases or any data source that can be mapped to RDF.
+>
+>The SPARQL standard is designed and endorsed by the W3C and helps users and developers focus on what they would like to know instead of how a database is organized.
+>
+> -- [What Is SPARQL? by OntoText](https://www.ontotext.com/knowledgehub/fundamentals/what-is-sparql)
+
+---
+
 ## SPARQL
 
 * is a W3C Recommendation (AKA a web standard)
 * uses syntax similar to SQL (database query language)
+* (similarly to SQL) allows to retrieve and modify in graph databases (triplestores)
+
+---
+
+## SPARQL SELECT
+
+* for now, let's focus on the retrieval part - the SELECT command
+* (there are commands for data creation: INSERT and UPDATE)
 * the result (answer) of a SPARQL SELECT query is a table
 
 ---
