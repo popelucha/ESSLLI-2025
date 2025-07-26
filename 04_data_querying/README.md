@@ -32,7 +32,8 @@
 
 * is a W3C Recommendation (AKA a web standard)
 * uses syntax similar to SQL (database query language)
-* (similarly to SQL) allows to retrieve and modify in graph databases (triplestores)
+* (similarly to SQL) allows to retrieve data from graph databases (triplestores)
+* (also allows to modify the data)
 
 ---
 
