@@ -74,10 +74,10 @@ Until you fine-tune your query, always use LIMIT.
 ```sparql
    SELECT ?book WHERE {  
           ?book a dbo:Book .  
-          ?book \<your property\> ?your\_variable .  
+          ?book <your property> ?your_variable .  
    } LIMIT 100
 ```
-3. What values does ?your\_variable contain? Are they URIs or literals?
+3. What values does `?your_variable` contain? Are they URIs or literals?
 
 ### Queries with `count()` and `DISTINCT`
 
@@ -88,13 +88,13 @@ Until you fine-tune your query, always use LIMIT.
           ?book a dbo:Book .  
           ?book dbo:author ?author .  
           ?book dbp:releaseDate ?date .  
-          ?author rdfs:label ?author\_name .  
+          ?author rdfs:label ?author_name .  
           ?book rdfs:label ?title .  
    }
  ```  
 2. Try the query with a limit. What do you see?  
 3. Add DISTINCT (`SELECT DISTINCT ?book…`)  
-4. Modify the original query so that it counts how many results it returns (note: there must be no LIMIT)  
+4. Modify the original query so that it counts how many results it returns (note: there must be no `LIMIT`)  
 5. Add DISTINCT to the query (`SELECT COUNT(DISTINCT(?book)`)
 
 ### Queries with FILTER and multiple conditions
@@ -214,7 +214,7 @@ The SPARQL endpoint is at [https://query.wikidata.org/](https://query.wikidata.o
      ?book rdfs:label ?bookLabel .  
      ?author rdfs:label ?authorLabel .  
      FILTER(langMatches(lang(?bookLabel), 'en'))  
-     FILTER(langMatches(lang(?authorLabel), 'cs'))  
+     FILTER(langMatches(lang(?authorLabel), 'de'))  
      ?book wdt:P18 ?image .  
      }  
    LIMIT 100
@@ -233,13 +233,13 @@ The SPARQL endpoint is at [https://query.wikidata.org/](https://query.wikidata.o
      ?book wdt:P577 ?date .  
      ?book rdfs:label ?bookLabel .  
      ?author rdfs:label ?authorLabel .  
-     FILTER(langMatches(lang(?bookLabel), 'cs'))  
-     FILTER(langMatches(lang(?authorLabel), 'cs'))  
+     FILTER(langMatches(lang(?bookLabel), 'de'))  
+     FILTER(langMatches(lang(?authorLabel), 'de'))  
      ?book wdt:P18 ?image .  
      }  
    LIMIT 100  
 ```
-2. Add \# - before the query in SPARQL to open the visualization option  
+2. Add `#` - before the query in SPARQL to open the visualization option  
 3. Select `#defaultView:Timeline`  
 4. Select other display types (not all will be relevant for this query)
 
