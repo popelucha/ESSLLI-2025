@@ -175,7 +175,7 @@ Literals can have **data types**.
   * How many friends do people have at maximum?
   * Is it true that older people have more friends?
 
-* Structured data can be obtained from natural language texts using large language models
+* Tabular data can be converted to knowledge graphs using large language models
   * Let's try and [visualize](https://www.ldf.fi/service/rdf-grapher)
 
 ---
