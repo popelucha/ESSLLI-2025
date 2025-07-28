@@ -58,10 +58,15 @@ URI = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
 ```
 
 
+[RFC3986, 2005](../references.md#RFC3986)
+
 ---
 
 ## URI Example
 
+:::: {.columns}
+
+::: {.column width="70%"}
 ```
 foo://example.com:8042/over/there?name=ferret#nose
 \_/   \______________/\_________/ \_________/ \__/
@@ -71,6 +76,20 @@ scheme     authority     path        query   fragment
 / \ /                        \
 urn:example:animal:ferret:nose
 ```
+
+:::
+
+::: {.column width="25%"}
+
+![](ferret-nose.png)
+
+:::
+
+::::
+
+
+
+[An image of a pet ferret. Alfredo Gutiérrez - Own work](https://commons.wikimedia.org/wiki/File:Ferret_2008.png)
 
 ### Sidenote: URI? URL? URN? IRI?
 
