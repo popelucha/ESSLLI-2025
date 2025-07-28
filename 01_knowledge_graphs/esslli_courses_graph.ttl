@@ -1,0 +1,119 @@
+@prefix ex: <http://example.org/esslli/> .
+@prefix schema: <http://schema.org/> .
+
+ex:course_15a0ecfd a ex:Course ;
+    ex:hasAuthor ex:author_752f8184,
+        ex:author_895dd6ff ;
+    ex:hasLevel ex:level_8b7633c6 ;
+    ex:hasRoom ex:room_80f24c6f ;
+    ex:hasTrack ex:track_35a96a23 ;
+    ex:time "9.00am - 10.30am" ;
+    ex:week "Week 1" ;
+    schema:name "Predictive and Counterfactual Modality" .
+
+ex:course_3f6766e4 a ex:Course ;
+    ex:hasAuthor ex:author_2d4e4476,
+        ex:author_347b8da2 ;
+    ex:hasLevel ex:level_65581deb ;
+    ex:hasRoom ex:room_9070f97b ;
+    ex:hasTrack ex:track_6a4d09a6 ;
+    ex:time "9.00am - 10.30am" ;
+    ex:week "Week 1" ;
+    schema:name "Introduction to Logical Argumentation" .
+
+ex:course_48bc79cb a ex:Course ;
+    ex:hasAuthor ex:author_6c22df71 ;
+    ex:hasLevel ex:level_65581deb ;
+    ex:hasRoom ex:room_77cf3e06 ;
+    ex:hasTrack ex:track_edf5ad50 ;
+    ex:time "9.00am - 10.30am" ;
+    ex:week "Week 1" ;
+    schema:name "Foundations of Linguistic Data Science" .
+
+ex:course_5cbf3e44 a ex:Course ;
+    ex:hasAuthor ex:author_f1b21576 ;
+    ex:hasLevel ex:level_9b6545e4 ;
+    ex:hasRoom ex:room_29ed1655 ;
+    ex:hasTrack ex:track_6a4d09a6 ;
+    ex:time "9.00am - 10.30am" ;
+    ex:week "Week 1" ;
+    schema:name "Logic-Based Explainable Artificial Intelligence" .
+
+ex:course_71c01e31 a ex:Course ;
+    ex:hasAuthor ex:author_fb3d6f16 ;
+    ex:hasLevel ex:level_8b7633c6 ;
+    ex:hasRoom ex:room_acf0a522 ;
+    ex:hasTrack ex:track_edf5ad50 ;
+    ex:time "9.00am - 10.30am" ;
+    ex:week "Week 1" ;
+    schema:name "Sparsity in Large Language Models: The New Odyssey" .
+
+ex:course_796db2e7 a ex:Course ;
+    ex:hasAuthor ex:author_34c27d37 ;
+    ex:hasLevel ex:level_9b6545e4 ;
+    ex:hasRoom ex:room_c3a9de40 ;
+    ex:hasTrack ex:track_35a96a23 ;
+    ex:time "9.00am - 10.30am" ;
+    ex:week "Week 1" ;
+    schema:name "Information-based semantics" .
+
+ex:author_2d4e4476 a ex:Author ;
+    schema:name "Christian Straßer" .
+
+ex:author_347b8da2 a ex:Author ;
+    schema:name "Kees van Berkel" .
+
+ex:author_34c27d37 a ex:Author ;
+    schema:name "Vít Punčochář" .
+
+ex:author_6c22df71 a ex:Author ;
+    schema:name "John Philip McCrae" .
+
+ex:author_752f8184 a ex:Author ;
+    schema:name "Jéssica Viana Mendes" .
+
+ex:author_895dd6ff a ex:Author ;
+    schema:name "Paolo Santorio" .
+
+ex:author_f1b21576 a ex:Author ;
+    schema:name "Joao Marques-Silva" .
+
+ex:author_fb3d6f16 a ex:Author ;
+    schema:name "Shiwei Liu" .
+
+ex:room_29ed1655 a ex:Room ;
+    schema:name "HGB 50" .
+
+ex:room_77cf3e06 a ex:Room ;
+    schema:name "HGB 40" .
+
+ex:room_80f24c6f a ex:Room ;
+    schema:name "HGB 30" .
+
+ex:room_9070f97b a ex:Room ;
+    schema:name "GA 03/142" .
+
+ex:room_acf0a522 a ex:Room ;
+    schema:name "GA 03/149" .
+
+ex:room_c3a9de40 a ex:Room ;
+    schema:name "HGB 20" .
+
+ex:level_65581deb a ex:Level ;
+    schema:name "Foundational" .
+
+ex:level_8b7633c6 a ex:Level ;
+    schema:name "Introductory" .
+
+ex:level_9b6545e4 a ex:Level ;
+    schema:name "Advanced" .
+
+ex:track_35a96a23 a ex:Track ;
+    schema:name "Language & Logic" .
+
+ex:track_6a4d09a6 a ex:Track ;
+    schema:name "Logic & Computation" .
+
+ex:track_edf5ad50 a ex:Track ;
+    schema:name "Language & Computation" .
+
