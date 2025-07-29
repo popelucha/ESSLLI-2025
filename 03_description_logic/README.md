@@ -212,17 +212,17 @@ Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
 * Nothing: $\bot$
 * Every class: $\bot \sqsubseteq C \sqsubseteq \top$
 * Intersection/conjunction, union/disjunction, complement/negation $\sqcap$, $\sqcup$, $\neg$
-* Universal and existential restriction
+* Universal and existential restriction: $\forall$ / ∃R.C = all / exist Role successors that are in C
 * Assertion $a:C$
 
 ### Examples
 
 * T = Man $\sqsubseteq$ Person
-* T = Grandmother ≡ Mother $\sqcap$ ∃hasChild.Parent
 * T = Teacher ⊑ ∃teaches.Course
+* T = Grandmother ≡ Mother $\sqcap$ ∃hasChild.Parent
 * A = Man(JOHN), loves(JOHN, MARY)
 
-Examples from [DLArchive](../references.md#DLArchive)
+Examples from [Křemen](../references.md#DLArchive)
 
 # Inference
 
@@ -305,7 +305,7 @@ vvv rdf:type xxx .
 
 ---
 
-## OWL components
+## OWL - Web Ontology Language
 
 | FOPL                       | DL                   | OWL        |
 |----------------------------|----------------------|------------|
@@ -329,11 +329,15 @@ vvv rdf:type xxx .
   * transitive property
 * anonymous classes
 
+```
+<TimBernersLee> <isA> <inventorOfTheWWW> .
+```
+
 Statements are DL formulas. Anonymous classes can be described with complement, intersection, or union.
 
 ---
 
-### Example
+## Examples
 
 ```
 :Person owl:equivalentClass :Human .
