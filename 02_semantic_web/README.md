@@ -79,9 +79,11 @@ urn:example:animal:ferret:nose
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="27%"}
 
 ![](ferret-nose.png)
+
+[An image of a pet ferret. Alfredo Gutiérrez - Own work](https://commons.wikimedia.org/wiki/File:Ferret_2008.png)
 
 :::
 
@@ -89,7 +91,6 @@ urn:example:animal:ferret:nose
 
 
 
-[An image of a pet ferret. Alfredo Gutiérrez - Own work](https://commons.wikimedia.org/wiki/File:Ferret_2008.png)
 
 ### Sidenote: URI? URL? URN? IRI?
 
@@ -218,8 +219,8 @@ Check [the stats](https://webdatacommons.org/structureddata/2024-12/stats/schema
 
 1. Use URIs as names for things
 1. Use HTTP URIs so that people can look up those names.
-1. When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)
-1. Include links to other URIs. so that they can discover more things.
+1. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)
+1. Include links to other URIs, so that they can discover more things.
 
 [Berners-Lee, 2006](../references.md#TBL2006)
 
