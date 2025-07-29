@@ -58,7 +58,6 @@ We can infer new facts:
 ## Try to Convert in FOPL
 
 - Hello.
-- What is the weather today?
 - We arrived to Bochum, Germany.
 - Billy kicked the ball into the goal and started jumping for joy.
 - Some students attended the course.
@@ -76,7 +75,7 @@ We can infer new facts:
 
 ## Problems with FOPL Conversion
 
-* not all sentences can be converted into FOPL formulae
+* not all sentences can be converted into FOPL formulas
 * natural language sentence can have different interpretations
 
 Almost every hour, an American dies of melanoma.
@@ -160,8 +159,9 @@ PresidentOfUS - is a role (dependent on time)
 axioms = statements present in a knowledge base
 
 ### Examples
-* Concept: Student(x)
-* Role: teaches(Teacher, Course)
+
+* Concept: Student(bob)
+* Role: teaches(alice, course101)
 
 ---
 
@@ -176,7 +176,7 @@ axioms = statements present in a knowledge base
 
 ---
 
-## Unique name assumption
+## Unique Name Assumption
 
 * If two elements have the same name, they are one thing.
 
@@ -218,11 +218,11 @@ Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
 ### Examples
 
 * T = Man $\sqsubseteq$ Person
-* T = Woman ≡ Person $\sqcap$ Female
-* T = Grandmother ≡ Mother $\sqcup$ ∃hasChild · Parent
+* T = Grandmother ≡ Mother $\sqcap$ ∃hasChild.Parent
+* T = Teacher ⊑ ∃teaches.Course
 * A = Man(JOHN), loves(JOHN, MARY)
 
-Examples from [DLArchive](../resources.md#DLArchive)
+Examples from [DLArchive](../references.md#DLArchive)
 
 # Inference
 
