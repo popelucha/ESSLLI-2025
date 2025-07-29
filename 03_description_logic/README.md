@@ -1,8 +1,14 @@
 # Logic and Inference
 
+___
+
+## Simple Ontology
+
 ![](employee-person.drawio.png)
 
 ---
+
+## Simple Ontology
 
 ![](employee-person.drawio.png)
 
@@ -212,14 +218,14 @@ Is there a connection from Bochum to Berlin between 10 am and 11 am on Sunday?
 * Nothing: $\bot$
 * Every class: $\bot \sqsubseteq C \sqsubseteq \top$
 * Intersection/conjunction, union/disjunction, complement/negation $\sqcap$, $\sqcup$, $\neg$
-* Universal and existential restriction: $\forall$ / ∃R.C = all / exist Role successors that are in C
+* Universal and existential restriction: $\forall$ / $\exists$ R.C = all / exist Role successors that are in C
 * Assertion $a:C$
 
 ### Examples
 
 * T = Man $\sqsubseteq$ Person
-* T = Teacher ⊑ ∃teaches.Course
-* T = Grandmother ≡ Mother $\sqcap$ ∃hasChild.Parent
+* T = Teacher $\sqsubseteq$ $\exists$ teaches.Course
+* T = Grandmother $\equiv$ Mother $\sqcap$ $\exists$ hasChild.Parent
 * A = Man(JOHN), loves(JOHN, MARY)
 
 Examples from [Křemen](../references.md#DLArchive)
