@@ -10,9 +10,9 @@ Alex works for RUB.
 
 ### Inferences
 
-Alex is a person.
-
-RUB is an organization.
+* Alex is an employee.
+* Alex is a person.
+* RUB is an organization.
 
 
 # First-order predicate logic (FOPL)
