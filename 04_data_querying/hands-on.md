@@ -50,7 +50,7 @@ Check the classes [here](https://mappings.dbpedia.org/index.php?title=Special%3A
 
 Check the properties [here](https://mappings.dbpedia.org/index.php?title=Special%3AAllPages&from=&to=&namespace=202)
 
-A-Boxes are information about instances. Because there are so many of them, they are available for download in several files (according to the type of statement and language). For example, the type statement is \<http://cs.dbpedia.org/resource/Loretánské\_náměstí\> \<http://www.w3.org/1999/02/22-rdf-syntax-ns\#type\> \<http://dbpedia.org/ontology/Street\>.
+A-Boxes are information about instances. Because there are so many of them, they are available for download in several files (according to the type of statement and language). For example, the type statement is <http://dbpedia.org/resource/Bochum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>.
 
 The T-Box is important for formulating queries.
 
