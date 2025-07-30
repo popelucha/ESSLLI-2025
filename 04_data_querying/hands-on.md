@@ -50,7 +50,8 @@ Check the classes [here](https://mappings.dbpedia.org/index.php?title=Special%3A
 
 Check the properties [here](https://mappings.dbpedia.org/index.php?title=Special%3AAllPages&from=&to=&namespace=202)
 
-A-Boxes are information about instances. Because there are so many of them, they are available for download in several files (according to the type of statement and language). For example, the type statement is <http://dbpedia.org/resource/Bochum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>.
+A-Boxes are information about instances. Because there are so many of them, they are available for download in several files (according to the type of statement and language). For example, the type statement is:
+```<http://dbpedia.org/resource/Bochum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>.```
 
 The T-Box is important for formulating queries.
 
@@ -100,7 +101,7 @@ Until you fine-tune your query, always use LIMIT.
 2. Try the query with a limit. What do you see?  
 3. Add DISTINCT (`SELECT DISTINCT ?book…`)  
 4. Modify the original query so that it counts how many results it returns (note: there must be no `LIMIT`)  
-5. Add DISTINCT to the query (`SELECT COUNT(DISTINCT(?book)`)
+5. Add DISTINCT to the query (`SELECT COUNT(DISTINCT(?book))`)
 
 ### Queries with FILTER and multiple conditions
 
@@ -116,8 +117,8 @@ Until you fine-tune your query, always use LIMIT.
    LIMIT 100  
 ```
 
-2. Add a filter for the number of pages less than 100\. Is there a book in the list that has less than 20 pages?  
-3. Add a filter for the number of pages less than 100 but greater than 20\.
+2. Add a filter for the number of pages less than 100. Is there a book in the list that has less than 20 pages?  
+3. Add a filter for the number of pages less than 100 but greater than 20.
 
 ### Queries with variable type tests
 
