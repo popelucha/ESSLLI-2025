@@ -45,7 +45,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 When searching the DBPedia knowledge base, you need to know the names of classes and properties?
 
 DBpedia T-Box specifies classes (e.g., Forest, CanadianFootballLeague, FictionalCharacter) and properties (e.g., highestPoint has range Place). Some things can be both a class (e.g., Colour) and a property (colour has range Colour).  
-[http://archivo.dbpedia.org/download?o=http%3A//dbpedia.org/ontology/\&f=owl](http://archivo.dbpedia.org/download?o=http%3A//dbpedia.org/ontology/&f=owl)
+
+Check the classes [here](https://mappings.dbpedia.org/index.php?title=Special%3AAllPages&from=&to=&namespace=200)
+
+Check the properties [here](https://mappings.dbpedia.org/index.php?title=Special%3AAllPages&from=&to=&namespace=202)
 
 A-Boxes are information about instances. Because there are so many of them, they are available for download in several files (according to the type of statement and language). For example, the type statement is \<http://cs.dbpedia.org/resource/Loretánské\_náměstí\> \<http://www.w3.org/1999/02/22-rdf-syntax-ns\#type\> \<http://dbpedia.org/ontology/Street\>.
 
@@ -82,6 +85,7 @@ Until you fine-tune your query, always use LIMIT.
 ### Queries with `count()` and `DISTINCT`
 
 1. Let's take the following query:  
+
 ```sparql
    SELECT ?book  
    WHERE {  
@@ -91,7 +95,8 @@ Until you fine-tune your query, always use LIMIT.
           ?author rdfs:label ?author_name .  
           ?book rdfs:label ?title .  
    }
- ```  
+```  
+
 2. Try the query with a limit. What do you see?  
 3. Add DISTINCT (`SELECT DISTINCT ?book…`)  
 4. Modify the original query so that it counts how many results it returns (note: there must be no `LIMIT`)  
@@ -100,6 +105,7 @@ Until you fine-tune your query, always use LIMIT.
 ### Queries with FILTER and multiple conditions
 
 1. Try the query:  
+
 ```sparql
    SELECT ?book ?author ?pages WHERE {  
           ?book a dbo:Book .  
@@ -109,12 +115,14 @@ Until you fine-tune your query, always use LIMIT.
    }  
    LIMIT 100  
 ```
+
 2. Add a filter for the number of pages less than 100\. Is there a book in the list that has less than 20 pages?  
 3. Add a filter for the number of pages less than 100 but greater than 20\.
 
 ### Queries with variable type tests
 
 1. Try the query  
+
 ```sparql
    SELECT ?book ?date ?year  
    WHERE {  
@@ -124,7 +132,9 @@ Until you fine-tune your query, always use LIMIT.
    }  
    LIMIT 100  
 ```
+
 2. The query will end with an error. What do you think is the cause? Try a simplified query:  
+
 ```sparql
    SELECT ?book ?date  
    WHERE {  
@@ -153,6 +163,7 @@ Until you fine-tune your query, always use LIMIT.
 2. Are all books really published before 1950?  
 3. What could be the cause?  
 4. Try modifying the query:
+
 ```sparql
 SELECT ?book ?date   
    WHERE {  
@@ -162,8 +173,10 @@ SELECT ?book ?date
    }  
    LIMIT 100  
 ```
+
 5. What is the problem? What type are the different values of the variable ?date?  
 6. The final query must contain both the conversion of the variable ?date to the type xsd:date and the specification of the literal.  
+
 ```sparql
    SELECT ?book ?date   
    WHERE {  
@@ -173,7 +186,14 @@ SELECT ?book ?date
            FILTER(xsd:date(?date) < "1950-01-01"^^xsd:date)  
    }  
    LIMIT 100
-  ```
+```
+
+### Namespaces
+
+`dbo` is the namespace for high quality data in the DBPedia ontology. Example relation in `dbo` is `dbo:birthDate`. If the day of birth was written in a correct way and extracted correctly, it is in the `dbo`. In all other cases, it is in the `dbp`, e.g. `dbp:birthDate`, `dbp:dateOfBirth`, and maybe more. `dbp` is used for automatically extracted raw infoboxes.
+
+`dbr` is used for the instances. 
+
 
 ## Wikidata
 
