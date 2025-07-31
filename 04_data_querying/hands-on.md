@@ -281,3 +281,9 @@ The SPARQL endpoint is at [https://query.wikidata.org/](https://query.wikidata.o
    LIMIT 100
 ```
 7. Did any of the Tolkiens write a book other than fantasy?
+
+### List of classes and list of properties
+
+Search classes at the Wikidata web page
+
+https://prop-explorer.toolforge.org/
