@@ -13,6 +13,17 @@ Understandable and correct?
 
 ---
 
+## LLMs and KGs
+
+* can LLMs reason?
+* LLMs help to build KGs
+* KGs prevent LLMs' hallucinations
+* LLMs are used to query KGs
+
+---
+
+# LLMs and Reasoning
+
 ## Ask LLMs to Reason
 
 * LLMs have internal knowledge (encoded in their weights)
@@ -28,9 +39,9 @@ Understandable and correct?
 
 ## Example of LLM reasoning
 
-*Question:* Verna loves to eat fruit. She bought three apples at $1.50
-each, five oranges at $0.80 each, and six peaches at $0.75 each. If
-she gave $20, how much change did she receive?
+*Question:* Verna loves to eat fruit. She bought three apples at \$1.50
+each, five oranges at \$0.80 each, and six peaches at \$0.75 each. If
+she gave \$20, how much change did she receive?
 
 *Answer:*
 ```
@@ -50,8 +61,12 @@ Example from [Kadavath et al., 2022](../references.md#Kadavath2022)
 It's very challenging for current LLMs to perform complex reasoning:
 
 * multi-hop reasoning
-* to know their reasoning limits
+* know their reasoning limits
 * overlooking of logical fallacies (e.g., [Li et al., 2024](../references.md#Li2024))
+
+![](fallacy.png)
+
+Image from [Li et al., 2024](../references.md#Li2024)
 
 ---
 
@@ -63,7 +78,11 @@ Image from [Lindsey et al., 2025](../references.md#Lindsey2025)
 
 ---
 
-## From Natural Language to Description Logic
+# LLMs build KGs
+
+## LLMs on their Way from Natural Language to Description Logic
+
+[Model "Sisters reunited after 10 years at the checkout line in Safeway"](https://chatgpt.com/share/688ba83b-4dc0-8006-a4b6-cd7a0de18f3c)
 
 * create/update the knowledge base
   * does the representation reflect common understanding?
@@ -89,31 +108,51 @@ Even with the LLMs, it's not easy.
 
 ---
 
-## Problems within LLMs
+## Challenges
 
+* proceed with the **default reading** only (solve ambiguity)
 * force the model to follow the modeling **design choices**
 * prevent the model to **fabricate** the facts
 
 ---
 
-## Could Retrieval Augmented Generation (RAG) be the Solution?
+# KGs support LLMs with formalized knowledge
+
+## Retrieval Augmented Generation (RAG) prevents Hallucinations
+
+RAG is a method to:
 
 * provide the up-to-date knowledge to the model
+* provide context specific knowledge
 * prevent hallucinations
 
 ---
 
-## RAG
+## Side Note: Vector Embeddings
 
-* Retrieval = knowledge is encoded so that the model understands it
+* vector = sequence of numbers
+* length of the sequence = **dimension**
+* semantic vectors encode meaning
+
+![](word_embeddings.png)
+
+Image by
+[Fschwarzentruber - Own work, CC BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=162969550)
+
+
+---
+
+## Retrieval Augmented Generation - RAG
+
+* **Retrieval** = knowledge is encoded so that the model understands it
   * chunks of knowledge are encoded into **embedding vectors** and stored in a database
-  * at query time, RAG compares the question embedding vector with the database and answers with the most similar chunk
+  * at query time, RAG compares the query embedding vector with the database and answers with the most similar chunk
 
-The difficult part(s):
+* The difficult part(s):
 
-* how to make the chunks
-* is the encoding part correct?
-* is the vector comparison the best way?
+  * how to make the chunks
+  * is the encoding part correct?
+  * is the vector comparison the best way?
 
 * Generation = the easier part for LLMs
 
@@ -146,15 +185,21 @@ Example of suboptimal chunking:
 
 * encode *correct* chunks of knowledge - the KG statements
 
-Sometimes, this is called Graph RAG.
+$\rightarrow$ Graph RAG
+
+* KG triples to sentences (chunks of knowledge)
+* KG provides relevant subgraphs to answer the query
+* LLM converts the query into a graph query
 
 ---
+
+# LLMs asks the KGs
 
 ## Data Querying with LLMs
 
 LLMs can produce SPARQL queries:
 
-* no need of SPARQL
+* no need to learn SPARQL (really?!?)
 * different wordings for the same question
 * let's try this in the hands-on session
 
@@ -194,13 +239,13 @@ However,
 
 Let's check whether you:
 
-* learned what knowledge graphs are
+* learned what **knowledge graphs** are
 * realize what is the difference between tabular and graph data and how the latter can be obtained from the former
-* recognize some parts of the large idea of the Semantic Web during your web searches
+* recognize some parts of the large idea of the **Semantic Web** during your web searches
 * know what *good* data mean
-* understand that description logic is a subset of first order predicate logic
-* understand how can knowledge be stored in RDF/OWL triples
-* know what type of new knowledge can be inferred in knowledge graphs
+* understand that **description logic** is a subset of first order predicate logic
+* understand how can knowledge be stored in RDF/OWL **triples**
+* know what type of new knowledge can be **inferred** in knowledge graphs
 * are able to query huge knowledge bases such as DBPedia or Wikidata
 * see advantages and disadvantages of LLMs in reasoning
-* know about the good things in both worlds
+* know about the good (and bad) things in both worlds

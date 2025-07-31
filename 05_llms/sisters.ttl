@@ -1,0 +1,83 @@
+@prefix : <http://example.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+############################
+# Classes
+############################
+
+:Sister a owl:Class ;
+    rdfs:subClassOf foaf:Person .
+
+:Reunion a owl:Class .
+
+:SeparationPeriod a owl:Class ;
+    rdfs:subClassOf time:Interval .
+
+:Location a owl:Class .
+
+:Supermarket a owl:Class ;
+    rdfs:subClassOf :Location .
+
+:SafewayStore a owl:Class ;
+    rdfs:subClassOf :Supermarket .
+
+:CheckoutLine a owl:Class ;
+    rdfs:subClassOf :Location .
+
+############################
+# Object Properties
+############################
+
+:participantIn a owl:ObjectProperty ;
+    rdfs:domain foaf:Person ;
+    rdfs:range :Reunion .
+
+:occursAt a owl:ObjectProperty ;
+    rdfs:domain :Reunion ;
+    rdfs:range :Location .
+
+:partOf a owl:ObjectProperty ;
+    rdfs:domain :Location ;
+    rdfs:range :Location ;
+    owl:TransitiveProperty .
+
+:involves a owl:ObjectProperty ;
+    rdfs:domain :SeparationPeriod ;
+    rdfs:range foaf:Person .
+
+:endsWith a owl:ObjectProperty ;
+    rdfs:domain :SeparationPeriod ;
+    rdfs:range :Reunion .
+
+############################
+# Individuals
+############################
+
+:s1 a :Sister ;
+    foaf:knows :s2 ;
+    :participantIn :r1 .
+
+:s2 a :Sister ;
+    foaf:knows :s1 ;
+    :participantIn :r1 .
+
+:r1 a :Reunion ;
+    :occursAt :checkout1 .
+
+:sep1 a :SeparationPeriod ;
+    :involves :s1 , :s2 ;
+    :endsWith :r1 ;
+    time:hasDuration [
+        a time:DurationDescription ;
+        time:years "10"^^xsd:decimal
+    ] .
+
+:checkout1 a :CheckoutLine ;
+    :partOf :safeway1 .
+
+:safeway1 a :SafewayStore .
