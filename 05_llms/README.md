@@ -20,7 +20,6 @@ Understandable and correct?
 * KGs prevent LLMs' hallucinations
 * LLMs are used to query KGs
 
----
 
 # LLMs and Reasoning
 
@@ -56,6 +55,45 @@ Example from [Kadavath et al., 2022](../references.md#Kadavath2022)
 
 ---
 
+## LLM Overthinking
+
+`ollama run deepseek-r1 "Hello, world!"`
+
+*Thinking...*
+
+First, the user said "Hello, world!" which is a common introductory phrase in programming. It's often used to mark the beginning of a program or as a simple greeting.
+
+As an AI assistant, I should respond helpfully and engagingly. Since this is a basic greeting, my response could be friendly and open-ended to encourage further interaction.
+
+Possible ways to respond:
+- Acknowledge the greeting: Say hello back.
+- Be enthusiastic: Use an exclamation point or positive language.
+- Add context: Remind them that I'm here to help with various topics.
+- Ask a question: To keep the conversation going, like what they're interested in.
+
+I should also consider my identity. The system prompt says "You are a helpful AI assistant." So, I need to stay true to that role.
+
+The phrase "Hello, world!" might be referencing the famous first program in many languages that prints this out. But since it's just saying hello, not asking for help with programming, I shouldn't assume that unless they specify.
+
+Keep it simple and friendly. A good response could be:
+- Greet them back.
+- Introduce myself briefly.
+- Offer assistance or ask how I can help.
+
+For example: "Hello! I'm your AI assistant here to help you with any questions or tasks. What's on your mind today?"
+
+This maintains a helpful tone, confirms my role, and invites further conversation.
+
+If they meant it literally as a greeting in real life, I should respond accordingly but keep the digital context clear.
+
+*...done thinking.*
+
+Hello! That's a great way to start—nice to meet you!
+
+I'm here to help with anything from answering questions to exploring ideas or just chatting. What can I do for you today?
+
+---
+
 ## Limitations
 
 It's very challenging for current LLMs to perform complex reasoning:
@@ -76,7 +114,6 @@ Image from [Li et al., 2024](../references.md#Li2024)
 
 Image from [Lindsey et al., 2025](../references.md#Lindsey2025)
 
----
 
 # LLMs build KGs
 
@@ -88,7 +125,6 @@ Image from [Lindsey et al., 2025](../references.md#Lindsey2025)
   * does the representation reflect common understanding?
   * how to represent implicit knowledge (i.e., not present in the input data)?
   * what existing ontologies/vocabularies can be used?
-* query the knowledge base
 
 ---
 
@@ -105,7 +141,6 @@ Historically:
 
 Even with the LLMs, it's not easy.
 [ChatGPT conversation](https://chatgpt.com/share/6883a1c8-b994-8006-8768-7e88914e25d4)
-
 ---
 
 ## Challenges
@@ -113,8 +148,6 @@ Even with the LLMs, it's not easy.
 * proceed with the **default reading** only (solve ambiguity)
 * force the model to follow the modeling **design choices**
 * prevent the model to **fabricate** the facts
-
----
 
 # KGs support LLMs with formalized knowledge
 
@@ -191,7 +224,6 @@ $\rightarrow$ Graph RAG
 * KG provides relevant subgraphs to answer the query
 * LLM converts the query into a graph query
 
----
 
 # LLMs asks the KGs
 
