@@ -45,3 +45,7 @@ This license enables reusers to distribute, remix, adapt, and build upon the mat
 <img src="https://mirrors.creativecommons.org/presskit/icons/by.xlarge.png" alt="BY" width="30"/>  BY: credit must be given to the creator.
 
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" alt="CC BY" width="120"/>
+
+# Contact info
+
+All materials created by Zuzana Neverilova, feel free to contact me at my gmail e-mail `popelucha`.
